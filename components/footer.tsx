@@ -1,6 +1,7 @@
 "use client"
 
 import { Instagram, Facebook, Mail, Phone, MapPin } from "lucide-react"
+import TiktokIcon from '@/public/icons/tiktok.svg';
 import Image from "next/image"
 import Link from "next/link"
 import { useLanguage } from "./language-provider"
@@ -15,9 +16,9 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           <div className="space-y-4">
             <Link href="/" className="inline-block">
-              <Image src="/images/LogoTranparant-2.png" alt="Umrah With Agra" width={100} height={48} className="h-18 w-18 overflow-hidden" />
+              <Image src="/images/LogoTranparant-2.png" alt="umrahwithagra" width={12} height={12} className="h-14 w-18" />
             </Link>
-            <p className="text-primary-foreground/80 mt-4 max-w-xs">
+            <p className="text-primary-foreground/80 max-w-xs">
               Professional Hajj and Umrah services with personalized packages, expert guidance, and seamless
               pilgrimages.
             </p>
@@ -30,6 +31,15 @@ const Footer = () => {
                 aria-label="Instagram"
               >
                 <Instagram className="h-5 w-5" />
+              </Link>
+              <Link
+                href="https://tiktok.com/@umrahwithagra"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary-foreground hover:text-accent transition-colors"
+                aria-label="Tiktok"
+              >
+                <TiktokIcon className="h-5 w-5 fill-current" />
               </Link>
               <Link
                 href="https://facebook.com/@umrahwithagra"
@@ -107,8 +117,8 @@ const Footer = () => {
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-3 mt-0.5 flex-shrink-0" />
                 <span>
-                  Jl. Manunggal Pratama No.12, Cipinang Melayu, 
-                  Kec. Makasar Kota Jakarta Timur, 
+                  Jl. Manunggal Pratama No.12, Cipinang Melayu,
+                  Kec. Makasar Kota Jakarta Timur,
                   <br />
                   Daerah Khusus Ibukota Jakarta 13620
                 </span>

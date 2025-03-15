@@ -2,6 +2,7 @@
 
 import { useLanguage } from "@/components/language-provider"
 import { Phone, Mail, MapPin, Clock, Instagram, Facebook } from "lucide-react"
+import TiktokIcon from '@/public/icons/tiktok.svg';
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
@@ -68,6 +69,14 @@ const ContactInfo = () => {
             className="bg-primary/10 hover:bg-primary/20 p-3 rounded-full transition-colors"
           >
             <Instagram className="h-5 w-5 text-primary" />
+          </Link>
+          <Link
+            href="https://tiktok.com/@umrahwithagra"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-primary/10 hover:bg-primary/20 p-3 rounded-full transition-colors"
+          >
+            <TiktokIcon className="h-5 w-5 text-primary fill-current" />
           </Link>
           <Link
             href="https://facebook.com/@umrahwithagra"

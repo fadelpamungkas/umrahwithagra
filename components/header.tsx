@@ -36,7 +36,7 @@ const Header = () => {
     <header className="sticky top-0 z-50 w-full bg-background/80 backdrop-blur-sm border-b">
       <div className="container flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center justify-between space-x-2 bg-primary hover:bg-primary/90 rounded-xl w-11 h-11">
-          <Image src="/images/logoDefault.png" alt="Umrah With Agra" width={150} height={150} className="h-9 w-auto" />
+          <Image src="/images/logoDefault.png" alt="umrahwithagra" width={12} height={12} className="h-9 w-14" />
         </Link>
 
         <div className="flex items-center justify-between space-x-14">
@@ -50,7 +50,7 @@ const Header = () => {
                       className={cn(
                         navigationMenuTriggerStyle(),
                         "font-caviar-dreams",
-                        pathname === route.href ? "bg-secondary/50 text-primary font-bold" : "",
+                        pathname === route.href ? "bg-primary/70 text-white font-bold" : "font-bold",
                       )}
                     >
                       {route.label}
@@ -76,7 +76,7 @@ const Header = () => {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="fixed inset-0 top-16 z-50 bg-background border-t animate-in slide-in-from-top-5">
+          <div className="fixed top-16 right-8 z-50 w-52 bg-background border-t animate-in slide-in-from-top-5">
             <nav className="container grid gap-6 p-6">
               {routes.map((route) => (
                 <Link
