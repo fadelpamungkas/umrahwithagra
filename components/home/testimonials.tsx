@@ -101,9 +101,8 @@ const Testimonials = () => {
                             {[...Array(5)].map((_, i) => (
                               <Star
                                 key={i}
-                                className={`h-5 w-5 ${
-                                  i < testimonial.rating ? "text-yellow-500 fill-yellow-500" : "text-gray-300"
-                                }`}
+                                className={`h-5 w-5 ${i < testimonial.rating ? "text-yellow-500 fill-yellow-500" : "text-gray-300"
+                                  }`}
                               />
                             ))}
                           </div>
@@ -124,9 +123,8 @@ const Testimonials = () => {
               <button
                 key={index}
                 onClick={() => setActiveIndex(index)}
-                className={`w-3 h-3 rounded-full transition-colors ${
-                  activeIndex === index ? "bg-primary" : "bg-primary/30"
-                }`}
+                className={`w-3 h-3 rounded-full transition-colors ${activeIndex === index ? "bg-primary" : "bg-primary/30"
+                  }`}
                 aria-label={`Go to testimonial ${index + 1}`}
               />
             ))}

@@ -50,7 +50,7 @@ const Header = () => {
                       className={cn(
                         navigationMenuTriggerStyle(),
                         "font-caviar-dreams",
-                        pathname === route.href ? "bg-primary/70 text-white font-bold" : "font-bold",
+                        pathname === route.href ? "border border-primary/70 text-primary font-bold" : "font-bold",
                       )}
                     >
                       {route.label}

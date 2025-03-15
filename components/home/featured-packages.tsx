@@ -59,7 +59,7 @@ const packages = [
       en: "Premium 3-week hajj journey with luxury accommodations and personalized service",
       id: "Perjalanan haji premium 3 minggu dengan akomodasi mewah dan layanan personal",
     },
-    image: "/images/package-3.jpg",
+    image: "/images/package-4.jpg",
     duration: 21,
     groupSize: "10-15",
     type: "umrah",

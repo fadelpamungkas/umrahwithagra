@@ -61,6 +61,10 @@ const translations: Translations = {
     en: "What Our Pilgrims Say",
     id: "Apa Kata Jamaah Kami",
   },
+  "home.galleries.title": {
+    en: "Gallery",
+    id: "Galeri",
+  },
   "home.faq.title": {
     en: "Frequently Asked Questions",
     id: "Pertanyaan yang Sering Diajukan",
