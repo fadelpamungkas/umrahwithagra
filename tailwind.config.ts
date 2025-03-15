@@ -1,7 +1,8 @@
-import type { Config } from "tailwindcss"
+import { type Config } from "tailwindcss"
+import animate from "tailwindcss-animate"
 
-const config = {
-  darkMode: ["class"],
+export default {
+  darkMode: "class",
   content: [
     "./pages/**/*.{ts,tsx}",
     "./components/**/*.{ts,tsx}",
@@ -9,7 +10,6 @@ const config = {
     "./src/**/*.{ts,tsx}",
     "*.{js,ts,jsx,tsx,mdx}",
   ],
-  prefix: "",
   theme: {
     container: {
       center: true,
@@ -26,12 +26,12 @@ const config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
         primary: {
-          DEFAULT: "#576037",
-          foreground: "#F5F8F7",
+          DEFAULT: "var(--primary)",
+          foreground: "var(--primary-foreground)",
         },
         secondary: {
-          DEFAULT: "#9FA483",
-          foreground: "#373737",
+          DEFAULT: "var(--secondary)",
+          foreground: "var(--secondary-foreground)",
         },
         destructive: {
           DEFAULT: "var(--destructive)",
@@ -75,8 +75,5 @@ const config = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [animate],
 } satisfies Config
-
-export default config
-
