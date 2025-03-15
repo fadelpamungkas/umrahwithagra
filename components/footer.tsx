@@ -98,7 +98,7 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <Phone className="h-5 w-5 mr-3 mt-0.5 flex-shrink-0" />
-                <span>+62 812 3456 7890</span>
+                <span>+62 852-1213-5211</span>
               </li>
               <li className="flex items-start">
                 <Mail className="h-5 w-5 mr-3 mt-0.5 flex-shrink-0" />
@@ -106,7 +106,12 @@ const Footer = () => {
               </li>
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-3 mt-0.5 flex-shrink-0" />
-                <span>Jakarta Office, Indonesia</span>
+                <span>
+                  Jl. Manunggal Pratama No.12, Cipinang Melayu, 
+                  Kec. Makasar Kota Jakarta Timur, 
+                  <br />
+                  Daerah Khusus Ibukota Jakarta 13620
+                </span>
               </li>
             </ul>
           </div>

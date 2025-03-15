@@ -8,10 +8,12 @@ export default function HajjPage() {
   return (
     <div className="flex flex-col min-h-screen">
       <HajjHero />
+      {/* 
       <HajjPackages />
       <HajjInfo />
       <HajjRequirements />
       <HajjCta />
+        */}
     </div>
   )
 }

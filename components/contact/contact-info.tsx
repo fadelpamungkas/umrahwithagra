@@ -19,7 +19,7 @@ const ContactInfo = () => {
             <Phone className="h-5 w-5 mr-3 mt-0.5 text-primary flex-shrink-0" />
             <div>
               <p className="font-bold">{language === "en" ? "Phone" : "Telepon"}</p>
-              <p className="text-muted-foreground">+62 812 3456 7890</p>
+              <p className="text-muted-foreground">+62 852-1213-5211</p>
             </div>
           </li>
           <li className="flex items-start">
@@ -34,9 +34,9 @@ const ContactInfo = () => {
             <div>
               <p className="font-bold">{language === "en" ? "Office Address" : "Alamat Kantor"}</p>
               <p className="text-muted-foreground">
-                Jakarta Office
+                Jl. Manunggal Pratama No.12, Cipinang Melayu, Kec. Makasar
                 <br />
-                Indonesia
+                Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13620
               </p>
             </div>
           </li>

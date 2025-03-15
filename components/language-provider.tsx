@@ -46,8 +46,8 @@ const translations: Translations = {
     id: "Alami perjalanan spiritual seumur hidup dengan layanan Haji dan Umrah yang dipersonalisasi",
   },
   "home.hero.cta": {
-    en: "Hajj Packages",
-    id: "Lihat Paket Haji",
+    en: "Umrah Packages",
+    id: "Lihat Paket Umrah",
   },
   "home.featured.title": {
     en: "Featured Packages",

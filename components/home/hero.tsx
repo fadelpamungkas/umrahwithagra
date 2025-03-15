@@ -29,7 +29,7 @@ const Hero = () => {
           </h1>
           <p className="text-lg md:text-xl text-white/80 mb-8 max-w-2xl mx-auto">{t("home.hero.subtitle")}</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/hajj">
+            <Link href="/umrah">
               <Button size="lg" className="text-base font-medium bg-primary hover:bg-primary/90">
                 {t("home.hero.cta")}
                 <ArrowRight className="ml-2 h-4 w-4" />

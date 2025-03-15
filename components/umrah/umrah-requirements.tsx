@@ -2,7 +2,7 @@
 
 import { useLanguage } from "@/components/language-provider"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { FileCheck, StampIcon as Passport, Syringe, Calendar, Wallet } from "lucide-react"
+import { FileCheck, StampIcon as Passport, Syringe, Calendar, Wallet, Images } from "lucide-react"
 
 const requirementsData = [
   {
@@ -19,12 +19,12 @@ const requirementsData = [
   {
     icon: FileCheck,
     title: {
-      en: "Umrah Visa",
-      id: "Visa Umrah",
+      en: "Required Documents",
+      id: "Dokumen yang Diperlukan",
     },
     description: {
-      en: "Obtained through authorized travel agencies with proper documentation.",
-      id: "Diperoleh melalui agen perjalanan resmi dengan dokumentasi yang tepat.",
+      en: "Personal and family documents like ID card, family card, birth certificate, and marriage book.",
+      id: "Dokumen pribadi dan keluarga seperti KTP, KK, Akta Kelahiran, dan Buku Nikah.",
     },
   },
   {
@@ -39,25 +39,36 @@ const requirementsData = [
     },
   },
   {
-    icon: Calendar,
+    icon: Images,
     title: {
-      en: "Booking Confirmation",
-      id: "Konfirmasi Pemesanan",
+      en: "Photos",
+      id: "Pas Foto",
     },
     description: {
-      en: "Confirmed hotel reservations and return flight tickets.",
-      id: "Reservasi hotel yang dikonfirmasi dan tiket pesawat pulang pergi.",
+      en: "Multiple passport-sized photos with white background and without glasses.",
+      id: "Beberapa pas foto ukuran paspor dengan latar belakang putih dan tanpa kacamata.",
+    },
+  },
+  {
+    icon: Calendar,
+    title: {
+      en: "Umrah Equipment",
+      id: "Perlengkapan Umrah",
+    },
+    description: {
+      en: "Umrah equipment like Ihram, prayer mat, and other necessities.",
+      id: "Perlengkapan Umrah seperti Ihram, sajadah, dan kebutuhan lainnya.",
     },
   },
   {
     icon: Wallet,
     title: {
-      en: "Financial Requirements",
-      id: "Persyaratan Keuangan",
+      en: "Personal Needs",
+      id: "Keperluan Pribadi",
     },
     description: {
-      en: "Payment for your Umrah package and additional funds for personal expenses.",
-      id: "Pembayaran untuk paket Umrah Anda dan dana tambahan untuk pengeluaran pribadi.",
+      en: "Personal necessities like medications, umbrella, sunglasses, hat, and other personal items.",
+      id: "Kebutuhan pribadi seperti obat-obatan, payung, kacamata hitam, topi, dan barang pribadi lainnya.",
     },
   },
 ]

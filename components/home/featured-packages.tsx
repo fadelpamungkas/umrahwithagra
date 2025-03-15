@@ -7,12 +7,13 @@ import { CalendarDays, Users, ArrowRight } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 
+// umroh reguler, umroh eksklusif, umroh platinum 
 const packages = [
   {
     id: 1,
     title: {
-      en: "Premium Umrah Package",
-      id: "Paket Umrah Premium",
+      en: "Reguler Umrah",
+      id: "Umrah Reguler",
     },
     description: {
       en: "All-inclusive 12-day journey to Makkah and Madinah with 5-star accommodations",
@@ -31,8 +32,8 @@ const packages = [
   {
     id: 2,
     title: {
-      en: "Economy Umrah Package",
-      id: "Paket Umrah Ekonomi",
+      en: "Exclusive Umrah",
+      id: "Umrah Eksklusif",
     },
     description: {
       en: "10-day journey to the holy cities with comfortable 3-star accommodations",
@@ -51,8 +52,8 @@ const packages = [
   {
     id: 3,
     title: {
-      en: "VIP Hajj Package",
-      id: "Paket Haji VIP",
+      en: "Platinum Umrah",
+      id: "Umrah Platinum",
     },
     description: {
       en: "Premium 3-week hajj journey with luxury accommodations and personalized service",
@@ -61,7 +62,7 @@ const packages = [
     image: "/images/package-3.jpg",
     duration: 21,
     groupSize: "10-15",
-    type: "hajj",
+    type: "umrah",
     featured: true,
     price: {
       en: "Starting from $9,500",

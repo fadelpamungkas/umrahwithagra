@@ -39,29 +39,31 @@ const Header = () => {
           <Image src="/images/logoDefault.png" alt="Umrah With Agra" width={150} height={150} className="h-9 w-auto" />
         </Link>
 
-        {/* Desktop Navigation */}
-        <NavigationMenu className="hidden md:flex">
-          <NavigationMenuList>
-            {routes.map((route) => (
-              <NavigationMenuItem key={route.href}>
-                <Link href={route.href} legacyBehavior passHref>
-                  <NavigationMenuLink
-                    className={cn(
-                      navigationMenuTriggerStyle(),
-                      "font-caviar-dreams",
-                      pathname === route.href ? "bg-secondary/50 text-primary font-bold" : "",
-                    )}
-                  >
-                    {route.label}
-                  </NavigationMenuLink>
-                </Link>
-              </NavigationMenuItem>
-            ))}
-          </NavigationMenuList>
-        </NavigationMenu>
+        <div className="flex items-center justify-between space-x-14">
+          {/* Desktop Navigation */}
+          <NavigationMenu className="hidden md:flex">
+            <NavigationMenuList>
+              {routes.map((route) => (
+                <NavigationMenuItem key={route.href}>
+                  <Link href={route.href} legacyBehavior passHref>
+                    <NavigationMenuLink
+                      className={cn(
+                        navigationMenuTriggerStyle(),
+                        "font-caviar-dreams",
+                        pathname === route.href ? "bg-secondary/50 text-primary font-bold" : "",
+                      )}
+                    >
+                      {route.label}
+                    </NavigationMenuLink>
+                  </Link>
+                </NavigationMenuItem>
+              ))}
+            </NavigationMenuList>
+          </NavigationMenu>
 
-        <div className="hidden md:flex items-center gap-4">
-          <LanguageSwitcher />
+          <div className="hidden md:flex items-center gap-4">
+            <LanguageSwitcher />
+          </div>
         </div>
 
         {/* Mobile Navigation */}
