@@ -36,7 +36,7 @@ const Header = () => {
     <header className="sticky top-0 z-50 w-full bg-background/80 backdrop-blur-sm border-b">
       <div className="container flex h-16 items-center justify-between">
         <Link href="/" className="flex items-start justify-center space-x-1 w-auto h-24">
-          <Image src="/images/agra_logo.png" alt="umrahwithagra" width={100} height={100} className="h-24 w-auto" />
+          <Image src="/images/agra_logo_text.png" alt="umrahwithagra" width={100} height={100} className="h-24 w-auto" />
         </Link>
 
         <div className="flex items-center justify-between space-x-14">
