@@ -24,8 +24,9 @@ const Header = () => {
 
   const routes = [
     { href: "/", label: t("nav.home") },
-    { href: "/hajj", label: t("nav.hajj") },
     { href: "/umrah", label: t("nav.umrah") },
+    { href: "/hajj", label: t("nav.hajj") },
+    { href: "/gallery", label: t("nav.gallery") },
     { href: "/faq", label: t("nav.faq") },
     { href: "/contact", label: t("nav.contact") },
   ]
@@ -61,9 +62,9 @@ const Header = () => {
             </NavigationMenuList>
           </NavigationMenu>
 
-          <div className="hidden md:flex items-center gap-4">
-            <LanguageSwitcher />
-          </div>
+        </div>
+        <div className="hidden md:flex items-center gap-4">
+          <LanguageSwitcher />
         </div>
 
         {/* Mobile Navigation */}

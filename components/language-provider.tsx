@@ -25,6 +25,10 @@ const translations: Translations = {
     en: "Umrah",
     id: "Umrah",
   },
+  "nav.gallery": {
+    en: "Gallery",
+    id: "Galeri",
+  },
   "nav.faq": {
     en: "FAQ",
     id: "FAQ",
@@ -61,9 +65,9 @@ const translations: Translations = {
     en: "What Our Pilgrims Say",
     id: "Apa Kata Jamaah Kami",
   },
-  "home.galleries.title": {
-    en: "Gallery",
-    id: "Galeri",
+  "home.posts.title": {
+    en: "Post",
+    id: "Post",
   },
   "home.faq.title": {
     en: "Frequently Asked Questions",

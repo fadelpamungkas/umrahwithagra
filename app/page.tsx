@@ -2,7 +2,7 @@ import Hero from "@/components/home/hero"
 import FeaturedPackages from "@/components/home/featured-packages"
 import Benefits from "@/components/home/benefits"
 import Testimonials from "@/components/home/testimonials"
-import Galleries from "@/components/home/galleries"
+import Posts from "@/components/home/posts"
 import FaqSection from "@/components/home/faq-section"
 
 export default function Home() {
@@ -12,7 +12,7 @@ export default function Home() {
       <FeaturedPackages />
       <Benefits />
       <Testimonials />
-      <Galleries />
+      <Posts />
       <FaqSection />
     </div>
   )

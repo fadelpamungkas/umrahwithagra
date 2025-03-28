@@ -4,7 +4,7 @@ import FaqCta from "@/components/faq/faq-cta"
 
 export default function FaqPage() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col">
       <FaqHero />
       <FaqContent />
       <FaqCta />

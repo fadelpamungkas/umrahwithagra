@@ -1,0 +1,325 @@
+[
+  {
+    "id": "1",
+    "title": {
+      "en": "VIP Hajj Package",
+      "id": "Paket Haji VIP"
+    },
+    "subtitle": {
+      "en": "Premium 3-week Journey",
+      "id": "Perjalanan Premium 3 Minggu"
+    },
+    "description": {
+      "en": "Premium 3-week Hajj journey with luxury accommodations and personalized service",
+      "id": "Perjalanan Haji premium 3 minggu dengan akomodasi mewah dan layanan personal"
+    },
+    "fullDescription": {
+      "en": "Experience the ultimate spiritual journey with our VIP Hajj Package. This premium 3-week journey offers luxury accommodations in Makkah and Madinah, private transportation, and personalized guidance from experienced scholars.",
+      "id": "Alami perjalanan spiritual terbaik dengan Paket Haji VIP kami. Perjalanan premium 3 minggu ini menawarkan akomodasi mewah di Makkah dan Madinah, transportasi pribadi, dan bimbingan personal dari ulama berpengalaman."
+    },
+    "price": {
+      "en": "$9,500",
+      "id": "Rp 135.000.000"
+    },
+    "priceNote": {
+      "en": "per person (double occupancy)",
+      "id": "per orang (kamar berdua)"
+    },
+    "duration": 21,
+    "groupSize": "10-15",
+    "departureDate": {
+      "en": "Coming Soon",
+      "id": "Segera Hadir"
+    },
+    "status": {
+      "en": "Coming Soon",
+      "id": "Segera Hadir"
+    },
+    "airlines": "Garuda Indonesia, Saudi Airlines",
+    "banner": "/images/banner2.jpg",
+    "flyer": "/images/package-1.jpg",
+    "features": [
+      {
+        "en": "5-star hotel accommodations in Makkah and Madinah",
+        "id": "Akomodasi hotel bintang 5 di Makkah dan Madinah"
+      },
+      {
+        "en": "Private transportation throughout the journey",
+        "id": "Transportasi pribadi selama perjalanan"
+      },
+      {
+        "en": "Premium tent accommodations in Mina",
+        "id": "Akomodasi tenda premium di Mina"
+      },
+      {
+        "en": "Personalized guidance from experienced scholars",
+        "id": "Bimbingan personal dari ulama berpengalaman"
+      },
+      {
+        "en": "All meals included with premium dining options",
+        "id": "Semua makanan termasuk dengan pilihan makan premium"
+      }
+    ],
+    "includes": [
+      {
+        "en": "5-star hotel accommodations in Makkah and Madinah",
+        "id": "Akomodasi hotel bintang 5 di Makkah dan Madinah"
+      },
+      {
+        "en": "Private transportation throughout the journey",
+        "id": "Transportasi pribadi selama perjalanan"
+      },
+      {
+        "en": "Premium tent accommodations in Mina",
+        "id": "Akomodasi tenda premium di Mina"
+      },
+      {
+        "en": "Personalized guidance from experienced scholars",
+        "id": "Bimbingan personal dari ulama berpengalaman"
+      },
+      {
+        "en": "All meals included with premium dining options",
+        "id": "Semua makanan termasuk dengan pilihan makan premium"
+      }
+    ],
+    "excludes": [
+      {
+        "en": "Personal expenses and shopping",
+        "id": "Pengeluaran pribadi dan belanja"
+      },
+      {
+        "en": "Travel insurance",
+        "id": "Asuransi perjalanan"
+      },
+      {
+        "en": "PCR tests or other medical tests if required",
+        "id": "Tes PCR atau tes medis lainnya jika diperlukan"
+      },
+      {
+        "en": "Excess baggage fees",
+        "id": "Biaya kelebihan bagasi"
+      },
+      {
+        "en": "Laundry services",
+        "id": "Layanan laundry"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "title": {
+      "en": "Standard Hajj Package",
+      "id": "Paket Haji Standar"
+    },
+    "subtitle": {
+      "en": "Comprehensive 3-week Journey",
+      "id": "Perjalanan Komprehensif 3 Minggu"
+    },
+    "description": {
+      "en": "Comprehensive 3-week Hajj journey with comfortable accommodations",
+      "id": "Perjalanan Haji komprehensif 3 minggu dengan akomodasi nyaman"
+    },
+    "fullDescription": {
+      "en": "Our Standard Hajj Package offers a comprehensive 3-week journey with comfortable 4-star accommodations in Makkah and Madinah. Enjoy group guidance from experienced scholars and all the essential services for a fulfilling Hajj experience.",
+      "id": "Paket Haji Standar kami menawarkan perjalanan komprehensif 3 minggu dengan akomodasi nyaman bintang 4 di Makkah dan Madinah. Nikmati bimbingan kelompok dari ulama berpengalaman dan semua layanan penting untuk pengalaman Haji yang memuaskan."
+    },
+    "price": {
+      "en": "$7,800",
+      "id": "Rp 110.000.000"
+    },
+    "priceNote": {
+      "en": "per person (double occupancy)",
+      "id": "per orang (kamar berdua)"
+    },
+    "duration": 21,
+    "groupSize": "15-20",
+    "departureDate": {
+      "en": "Coming Soon",
+      "id": "Segera Hadir"
+    },
+    "status": {
+      "en": "Coming Soon",
+      "id": "Segera Hadir"
+    },
+    "airlines": "Garuda Indonesia, Saudi Airlines",
+    "banner": "/images/banner2.jpg",
+    "flyer": "/images/package-2.jpg",
+    "features": [
+      {
+        "en": "4-star hotel accommodations in Makkah and Madinah",
+        "id": "Akomodasi hotel bintang 4 di Makkah dan Madinah"
+      },
+      {
+        "en": "Comfortable transportation throughout the journey",
+        "id": "Transportasi nyaman selama perjalanan"
+      },
+      {
+        "en": "Standard tent accommodations in Mina",
+        "id": "Akomodasi tenda standar di Mina"
+      },
+      {
+        "en": "Group guidance from experienced scholars",
+        "id": "Bimbingan kelompok dari ulama berpengalaman"
+      },
+      {
+        "en": "All meals included",
+        "id": "Semua makanan termasuk"
+      }
+    ],
+    "includes": [
+      {
+        "en": "4-star hotel accommodations in Makkah and Madinah",
+        "id": "Akomodasi hotel bintang 4 di Makkah dan Madinah"
+      },
+      {
+        "en": "Comfortable transportation throughout the journey",
+        "id": "Transportasi nyaman selama perjalanan"
+      },
+      {
+        "en": "Standard tent accommodations in Mina",
+        "id": "Akomodasi tenda standar di Mina"
+      },
+      {
+        "en": "Group guidance from experienced scholars",
+        "id": "Bimbingan kelompok dari ulama berpengalaman"
+      },
+      {
+        "en": "All meals included",
+        "id": "Semua makanan termasuk"
+      }
+    ],
+    "excludes": [
+      {
+        "en": "Personal expenses and shopping",
+        "id": "Pengeluaran pribadi dan belanja"
+      },
+      {
+        "en": "Travel insurance",
+        "id": "Asuransi perjalanan"
+      },
+      {
+        "en": "PCR tests or other medical tests if required",
+        "id": "Tes PCR atau tes medis lainnya jika diperlukan"
+      },
+      {
+        "en": "Excess baggage fees",
+        "id": "Biaya kelebihan bagasi"
+      },
+      {
+        "en": "Laundry services",
+        "id": "Layanan laundry"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "title": {
+      "en": "Economy Hajj Package",
+      "id": "Paket Haji Ekonomi"
+    },
+    "subtitle": {
+      "en": "Affordable 3-week Journey",
+      "id": "Perjalanan Terjangkau 3 Minggu"
+    },
+    "description": {
+      "en": "Affordable 3-week Hajj journey with suitable accommodations",
+      "id": "Perjalanan Haji terjangkau 3 minggu dengan akomodasi yang sesuai"
+    },
+    "fullDescription": {
+      "en": "Our Economy Hajj Package offers an affordable 3-week journey with suitable 3-star accommodations in Makkah and Madinah. This package includes all the essential services for a meaningful Hajj experience at a budget-friendly price.",
+      "id": "Paket Haji Ekonomi kami menawarkan perjalanan terjangkau 3 minggu dengan akomodasi yang sesuai bintang 3 di Makkah dan Madinah. Paket ini mencakup semua layanan penting untuk pengalaman Haji yang bermakna dengan harga yang ramah anggaran."
+    },
+    "price": {
+      "en": "$6,500",
+      "id": "Rp 92.000.000"
+    },
+    "priceNote": {
+      "en": "per person (quad occupancy)",
+      "id": "per orang (kamar berempat)"
+    },
+    "duration": 21,
+    "groupSize": "20-25",
+    "departureDate": {
+      "en": "Coming Soon",
+      "id": "Segera Hadir"
+    },
+    "status": {
+      "en": "Coming Soon",
+      "id": "Segera Hadir"
+    },
+    "airlines": "Saudi Airlines, Lion Air",
+    "banner": "/images/banner2.jpg",
+    "flyer": "/images/package-4.jpg",
+    "features": [
+      {
+        "en": "3-star hotel accommodations in Makkah and Madinah",
+        "id": "Akomodasi hotel bintang 3 di Makkah dan Madinah"
+      },
+      {
+        "en": "Shared transportation throughout the journey",
+        "id": "Transportasi bersama selama perjalanan"
+      },
+      {
+        "en": "Standard tent accommodations in Mina",
+        "id": "Akomodasi tenda standar di Mina"
+      },
+      {
+        "en": "Group guidance from experienced scholars",
+        "id": "Bimbingan kelompok dari ulama berpengalaman"
+      },
+      {
+        "en": "All meals included",
+        "id": "Semua makanan termasuk"
+      }
+    ],
+    "includes": [
+      {
+        "en": "3-star hotel accommodations in Makkah and Madinah",
+        "id": "Akomodasi hotel bintang 3 di Makkah dan Madinah"
+      },
+      {
+        "en": "Shared transportation throughout the journey",
+        "id": "Transportasi bersama selama perjalanan"
+      },
+      {
+        "en": "Standard tent accommodations in Mina",
+        "id": "Akomodasi tenda standar di Mina"
+      },
+      {
+        "en": "Group guidance from experienced scholars",
+        "id": "Bimbingan kelompok dari ulama berpengalaman"
+      },
+      {
+        "en": "All meals included",
+        "id": "Semua makanan termasuk"
+      }
+    ],
+    "excludes": [
+      {
+        "en": "Personal expenses and shopping",
+        "id": "Pengeluaran pribadi dan belanja"
+      },
+      {
+        "en": "Travel insurance",
+        "id": "Asuransi perjalanan"
+      },
+      {
+        "en": "PCR tests or other medical tests if required",
+        "id": "Tes PCR atau tes medis lainnya jika diperlukan"
+      },
+      {
+        "en": "Excess baggage fees",
+        "id": "Biaya kelebihan bagasi"
+      },
+      {
+        "en": "Laundry services",
+        "id": "Layanan laundry"
+      },
+      {
+        "en": "Room service and additional meals",
+        "id": "Layanan kamar dan makanan tambahan"
+      }
+    ]
+  }
+]
+

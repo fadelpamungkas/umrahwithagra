@@ -3,7 +3,7 @@
 import { useLanguage } from "@/components/language-provider"
 import InstagramCard from "@/components/instagram-card"
 
-const Galleries = () => {
+const Posts = () => {
   const { t } = useLanguage()
 
   return (
@@ -11,7 +11,7 @@ const Galleries = () => {
       <div className="container px-4">
         <div className="text-center mb-12 md:mb-16">
           <h2 className="font-serif text-3xl md:text-4xl font-bold text-primary mb-4">
-            {t("home.galleries.title")}
+            {t("home.posts.title")}
           </h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-6" />
         </div>
@@ -49,5 +49,5 @@ const Galleries = () => {
   )
 }
 
-export default Galleries
+export default Posts
 

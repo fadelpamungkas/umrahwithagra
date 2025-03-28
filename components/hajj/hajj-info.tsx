@@ -78,7 +78,7 @@ const HajjInfo = () => {
 
           <div>
             <Tabs defaultValue="1" className="w-full">
-              <TabsList className="grid grid-cols-4 mb-6">
+              <TabsList className="grid grid-cols-4 mb-6 bg-gray-200">
                 {hajjDays.map((day) => (
                   <TabsTrigger key={day.day} value={day.day}>
                     {language === "en" ? `Day ${day.day}` : `Hari ${day.day}`}

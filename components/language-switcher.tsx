@@ -7,7 +7,7 @@ export function LanguageSwitcher() {
   const { language, toggleLanguage } = useLanguage()
 
   return (
-    <Button variant="outline" size="sm" onClick={toggleLanguage} className="w-12 font-medium">
+    <Button variant="outline" size="sm" onClick={toggleLanguage} className="w-12 font-medium cursor-pointer">
       {language.toUpperCase()}
     </Button>
   )
