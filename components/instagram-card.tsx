@@ -10,8 +10,6 @@ import { Input } from "@/components/ui/input"
 import { Heart, MessageCircle, Bookmark, Play, Send, SendHorizontal } from "lucide-react"
 
 interface InstagramCardProps {
-  username: string
-  followers: string
   targetUrl: string
   imageUrl: string
   likes: number
@@ -20,8 +18,6 @@ interface InstagramCardProps {
 }
 
 export default function InstagramCard({
-  username,
-  followers,
   targetUrl,
   imageUrl,
   likes,
@@ -30,13 +26,16 @@ export default function InstagramCard({
 }: InstagramCardProps) {
   const [isLiked, setIsLiked] = useState(true)
   const [isSaved, setIsSaved] = useState(false)
+  const username = "umrahwithagra"
+  const followers = "11.9K"
+  const profileUrl = "https://www.instagram.com/umrahwithagra?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
 
   return (
-    <Link key={targetUrl} href={targetUrl}>
-      <Card className="max-w-[468px] overflow-hidden">
-        <CardHeader className="flex flex-row items-center justify-between space-y-0 p-4">
+    <Card className="max-w-[468px] overflow-hidden">
+      <CardHeader className="flex flex-row items-center justify-between space-y-0 p-2.5">
+        <Link key={profileUrl} href={profileUrl}>
           <div className="flex items-center space-x-3">
-            <Avatar className="h-8 w-8">
+            <Avatar className="h-10 w-10">
               <AvatarImage src={avatarUrl} alt={username} />
               <AvatarFallback>DT</AvatarFallback>
             </Avatar>
@@ -45,11 +44,13 @@ export default function InstagramCard({
               <span className="text-xs text-muted-foreground">{followers} followers</span>
             </div>
           </div>
-          <Button variant="secondary" size="sm" className="rounded-full bg-blue-500 text-white hover:bg-blue-600">
-            View profile
-          </Button>
-        </CardHeader>
-        <CardContent className="relative aspect-square p-0">
+        </Link>
+        <Button variant="secondary" size="lg" className="cursor-pointer rounded-lg bg-blue-500 text-white h-8 px-3 hover:bg-blue-600">
+          View profile
+        </Button>
+      </CardHeader>
+      <Link key={targetUrl} href={targetUrl}>
+        <CardContent className="relative aspect-4/5 p-0">
           <div className="relative h-full w-full">
             <Image src={imageUrl || "/placeholder.svg"} alt="Instagram post" fill className="object-cover" />
             {isVideo && (
@@ -88,8 +89,8 @@ export default function InstagramCard({
             </div>
           </div>
         </CardFooter>
-      </Card>
-    </Link>
+      </Link>
+    </Card>
   )
 }
 

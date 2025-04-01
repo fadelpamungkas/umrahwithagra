@@ -18,26 +18,21 @@ const Posts = () => {
 
         <div className="container mx-auto grid gap-6 p-4 md:grid-cols-2 lg:grid-cols-3">
           <InstagramCard
-            username="umrahwithagra"
-            followers="94.1K"
             targetUrl="https://www.instagram.com/p/C_S1MG2h_fx/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
-            imageUrl="/images/instagram_image_1.jpg"
+            imageUrl="/images/instagram_post_1.jpg"
             avatarUrl="/images/logo.webp"
-            likes={509.754}
+            likes={509.558}
           />
           <InstagramCard
-            username="umrahwithagra"
-            followers="94.1K"
             targetUrl="https://www.instagram.com/reel/C_H0U5aPKMI/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
-            imageUrl="/images/instagram_image_1.jpg"
+            imageUrl="/images/instagram_post_2.jpg"
             avatarUrl="/images/logo.webp"
             likes={120}
+            isVideo={true}
           />
           <InstagramCard
-            username="umrahwithagra"
-            followers="94.1K"
             targetUrl="https://www.instagram.com/reel/C_qA9O4PLSk/"
-            imageUrl="/images/instagram_image_1.jpg"
+            imageUrl="/images/instagram_post_3.jpg"
             avatarUrl="/images/logo.webp"
             likes={37}
             isVideo={true}
