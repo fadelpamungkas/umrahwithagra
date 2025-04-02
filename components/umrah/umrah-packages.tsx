@@ -57,7 +57,7 @@ const UmrahPackages = () => {
               </CardContent>
               <CardFooter>
                 <Link href={`/umrah/${pkg.id}`} className="w-full">
-                  <Button className="w-full">{language === "en" ? "Details" : "Detail"}</Button>
+                  <Button className="w-full cursor-pointer">{language === "en" ? "Details" : "Detail"}</Button>
                 </Link>
               </CardFooter>
             </Card>

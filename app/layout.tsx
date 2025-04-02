@@ -3,6 +3,7 @@ import type { Metadata } from "next"
 import { Noto_Serif_Display } from "next/font/google"
 import localFont from "next/font/local"
 import "./globals.css"
+import "./themes.css"
 import { cn } from "@/lib/utils"
 import { ThemeProvider } from "@/components/theme-provider"
 import { LanguageProvider } from "@/components/language-provider"
@@ -63,7 +64,3 @@ export default function RootLayout({
     </html>
   )
 }
-
-
-
-import './globals.css'

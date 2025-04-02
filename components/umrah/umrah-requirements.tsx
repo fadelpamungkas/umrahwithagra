@@ -93,7 +93,7 @@ const UmrahRequirements = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {requirementsData.map((req, index) => (
-            <Card key={index} className="hover:shadow-md transition-shadow">
+            <Card key={index} className="shadow-md border-0">
               <CardHeader className="pb-2">
                 <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
                   <req.icon className="h-6 w-6 text-primary" />

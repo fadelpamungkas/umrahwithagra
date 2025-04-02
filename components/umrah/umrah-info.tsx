@@ -56,7 +56,7 @@ const UmrahInfo = () => {
   ]
 
   return (
-    <section className="py-16 md:py-24 bg-secondary/20">
+    <section className="py-16 md:py-24">
       <div className="container px-4">
         <div className="text-center mb-12 md:mb-16">
           <h2 className="font-serif text-3xl md:text-4xl font-bold text-primary mb-4">
@@ -79,7 +79,7 @@ const UmrahInfo = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {rituals.map((ritual, index) => (
-              <Card key={index} className="hover:shadow-md transition-shadow bg-background/90">
+              <Card key={index} className="shadow-md border-0">
                 <CardHeader className="pb-2">
                   <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
                     <ritual.icon className="h-6 w-6 text-primary" />

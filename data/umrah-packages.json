@@ -1,108 +1,109 @@
 [
   {
-    "id": "1",
+    "id": "reguler",
+    "type": "umrah",
     "title": {
-      "en": "Premium Umrah Package",
-      "id": "Paket Umrah Premium"
+      "en": "Reguler Umrah Package",
+      "id": "Paket Umrah Reguler"
     },
     "subtitle": {
-      "en": "Luxury 12-Day Journey",
-      "id": "Perjalanan Mewah 12 Hari"
+      "en": "Affordable 10-Day Journey",
+      "id": "Perjalanan Terjangkau 10 Hari"
     },
     "description": {
-      "en": "All-inclusive 12-day journey to Makkah and Madinah with 5-star accommodations",
-      "id": "Perjalanan 12 hari ke Makkah dan Madinah dengan akomodasi bintang 5"
+      "en": "10-day journey to the holy cities with comfortable 3-star accommodations",
+      "id": "Perjalanan 10 hari ke kota suci dengan akomodasi nyaman bintang 3"
     },
     "fullDescription": {
-      "en": "Experience the ultimate spiritual journey with our Premium Umrah Package. This all-inclusive 12-day journey offers 5-star accommodations in Makkah and Madinah, private transportation, and personalized guidance from experienced scholars.",
-      "id": "Alami perjalanan spiritual terbaik dengan Paket Umrah Premium kami. Perjalanan all-inclusive 12 hari ini menawarkan akomodasi bintang 5 di Makkah dan Madinah, transportasi pribadi, dan bimbingan personal dari ulama berpengalaman."
+      "en": "Our Reguler Umrah Package offers an affordable 10-day journey with comfortable 3-star accommodations in Makkah and Madinah. This package includes all the essential services for a meaningful Umrah experience at a budget-friendly price.",
+      "id": "Paket Umrah Reguler kami menawarkan perjalanan terjangkau 10 hari dengan akomodasi nyaman bintang 3 di Makkah dan Madinah. Paket ini mencakup semua layanan penting untuk pengalaman Umrah yang bermakna dengan harga yang ramah anggaran."
     },
     "price": {
-      "en": "$2,500",
-      "id": "Rp 35.000.000"
+      "en": "$1,800",
+      "id": "Rp 25.000.000"
     },
     "priceNote": {
-      "en": "per person (double occupancy)",
-      "id": "per orang (kamar berdua)"
+      "en": "per person (quad occupancy)",
+      "id": "per orang (kamar berempat)"
     },
-    "duration": 12,
-    "groupSize": "15-20",
+    "duration": 10,
+    "groupSize": "20-30",
     "departureDate": {
       "en": "Multiple dates available",
       "id": "Tersedia beberapa tanggal keberangkatan"
     },
     "departureDates": [
       {
-        "id": "1-1",
+        "id": "3-1",
         "date": {
-          "en": "January 15, 2025",
-          "id": "15 Januari 2025"
+          "en": "January 10, 2025",
+          "id": "10 Januari 2025"
         }
       },
       {
-        "id": "1-2",
+        "id": "3-2",
         "date": {
-          "en": "February 20, 2025",
-          "id": "20 Februari 2025"
+          "en": "February 15, 2025",
+          "id": "15 Februari 2025"
         }
       },
       {
-        "id": "1-3",
+        "id": "3-3",
         "date": {
-          "en": "March 10, 2025",
-          "id": "10 Maret 2025"
+          "en": "March 25, 2025",
+          "id": "25 Maret 2025"
         }
       }
     ],
-    "airlines": "Garuda Indonesia, Saudi Airlines",
+    "airlines": "Saudi Airlines, Lion Air",
     "banner": "/images/banner1.jpeg",
-    "flyer": "/images/package-1.jpg",
+    "flyer": "/images/package-4.jpg",
     "features": [
       {
-        "en": "5-star hotel accommodations in Makkah and Madinah",
-        "id": "Akomodasi hotel bintang 5 di Makkah dan Madinah"
+        "en": "3-star hotel accommodations in Makkah and Madinah",
+        "id": "Akomodasi hotel bintang 3 di Makkah dan Madinah"
       },
       {
-        "en": "Private transportation throughout the journey",
-        "id": "Transportasi pribadi selama perjalanan"
+        "en": "Shared transportation throughout the journey",
+        "id": "Transportasi bersama selama perjalanan"
       },
       {
-        "en": "Direct flights with premium airlines",
-        "id": "Penerbangan langsung dengan maskapai premium"
+        "en": "Regular flights with transit",
+        "id": "Penerbangan reguler dengan transit"
       },
       {
-        "en": "Personalized guidance from experienced scholars",
-        "id": "Bimbingan personal dari ulama berpengalaman"
+        "en": "Group guidance from experienced scholars",
+        "id": "Bimbingan kelompok dari ulama berpengalaman"
       },
       {
-        "en": "All meals included with premium dining options",
-        "id": "Semua makanan termasuk dengan pilihan makan premium"
+        "en": "All meals included",
+        "id": "Semua makanan termasuk"
       }
     ],
     "includes": [
       {
-        "en": "Return flights with premium airlines",
-        "id": "Penerbangan pulang-pergi dengan maskapai premium"
+        "en": "Return flights with transit",
+        "id": "Penerbangan pulang-pergi dengan transit"
       },
       {
-        "en": "5-star hotel accommodations in Makkah (near Haram)",
-        "id": "Akomodasi hotel bintang 5 di Makkah (dekat Haram)"
+        "en": "3-star hotel accommodations in Makkah",
+        "id": "Akomodasi hotel bintang 3 di Makkah"
       },
       {
-        "en": "5-star hotel accommodations in Madinah (near Masjid Nabawi)",
-        "id": "Akomodasi hotel bintang 5 di Madinah (dekat Masjid Nabawi)"
+        "en": "3-star hotel accommodations in Madinah",
+        "id": "Akomodasi hotel bintang 3 di Madinah"
       },
       {
-        "en": "Private transportation throughout the journey",
-        "id": "Transportasi pribadi selama perjalanan"
+        "en": "Shared transportation throughout the journey",
+        "id": "Transportasi bersama selama perjalanan"
       },
       {
-        "en": "All meals with premium dining options",
-        "id": "Semua makanan dengan pilihan makan premium"
+        "en": "All meals included",
+        "id": "Semua makanan termasuk"
       },
       {
-        "en": "Personalized guidance from experienced scholars",
-        "id": "Bimbingan personal dari ulama berpengalaman"
+        "en": "Group guidance from experienced scholars",
+        "id": "Bimbingan kelompok dari ulama berpengalaman"
       },
       {
         "en": "Umrah visa processing and fees",
@@ -137,6 +138,10 @@
       {
         "en": "Laundry services",
         "id": "Layanan laundry"
+      },
+      {
+        "en": "Room service and additional meals",
+        "id": "Layanan kamar dan makanan tambahan"
       }
     ],
     "itinerary": [
@@ -147,8 +152,8 @@
           "id": "Keberangkatan"
         },
         "description": {
-          "en": "Gather at the airport for check-in. Depart for Madinah via direct flight.",
-          "id": "Berkumpul di bandara untuk check-in. Berangkat ke Madinah melalui penerbangan langsung."
+          "en": "Gather at the airport for check-in. Depart for Madinah with transit.",
+          "id": "Berkumpul di bandara untuk check-in. Berangkat ke Madinah dengan transit."
         },
         "icon": "Plane"
       },
@@ -179,29 +184,17 @@
       {
         "day": 4,
         "title": {
-          "en": "Madinah - Free Day",
-          "id": "Madinah - Hari Bebas"
-        },
-        "description": {
-          "en": "Free day for worship at Masjid Nabawi and personal reflection.",
-          "id": "Hari bebas untuk beribadah di Masjid Nabawi dan refleksi pribadi."
-        },
-        "icon": "Clock"
-      },
-      {
-        "day": 5,
-        "title": {
           "en": "Madinah to Makkah",
           "id": "Madinah ke Makkah"
         },
         "description": {
-          "en": "Check-out from hotel. Travel to Makkah by private bus. Stop at Miqat for Ihram. Arrive in Makkah and check-in to hotel.",
-          "id": "Check-out dari hotel. Perjalanan ke Makkah dengan bus pribadi. Berhenti di Miqat untuk Ihram. Tiba di Makkah dan check-in ke hotel."
+          "en": "Check-out from hotel. Travel to Makkah by bus. Stop at Miqat for Ihram. Arrive in Makkah and check-in to hotel.",
+          "id": "Check-out dari hotel. Perjalanan ke Makkah dengan bus. Berhenti di Miqat untuk Ihram. Tiba di Makkah dan check-in ke hotel."
         },
         "icon": "Bus"
       },
       {
-        "day": 6,
+        "day": 5,
         "title": {
           "en": "Umrah Rituals",
           "id": "Ritual Umrah"
@@ -213,7 +206,7 @@
         "icon": "MapPin"
       },
       {
-        "day": 7,
+        "day": 6,
         "title": {
           "en": "Makkah Ziyarat",
           "id": "Ziarah Makkah"
@@ -223,6 +216,18 @@
           "id": "Mengunjungi situs bersejarah di Makkah termasuk Jabal Nur (Gua Hira), Jabal Thawr, dan Hudaibiyah."
         },
         "icon": "MapPin"
+      },
+      {
+        "day": 7,
+        "title": {
+          "en": "Makkah - Free Day",
+          "id": "Makkah - Hari Bebas"
+        },
+        "description": {
+          "en": "Free day for worship at Masjid Al-Haram and personal reflection.",
+          "id": "Hari bebas untuk beribadah di Masjid Al-Haram dan refleksi pribadi."
+        },
+        "icon": "Clock"
       },
       {
         "day": 8,
@@ -239,30 +244,6 @@
       {
         "day": 9,
         "title": {
-          "en": "Makkah - Free Day",
-          "id": "Makkah - Hari Bebas"
-        },
-        "description": {
-          "en": "Free day for worship at Masjid Al-Haram and personal reflection.",
-          "id": "Hari bebas untuk beribadah di Masjid Al-Haram dan refleksi pribadi."
-        },
-        "icon": "Clock"
-      },
-      {
-        "day": 10,
-        "title": {
-          "en": "Makkah - Free Day",
-          "id": "Makkah - Hari Bebas"
-        },
-        "description": {
-          "en": "Free day for worship at Masjid Al-Haram and personal reflection.",
-          "id": "Hari bebas untuk beribadah di Masjid Al-Haram dan refleksi pribadi."
-        },
-        "icon": "Clock"
-      },
-      {
-        "day": 11,
-        "title": {
           "en": "Farewell Tawaf & Departure Preparation",
           "id": "Tawaf Wada & Persiapan Keberangkatan"
         },
@@ -273,7 +254,7 @@
         "icon": "MapPin"
       },
       {
-        "day": 12,
+        "day": 10,
         "title": {
           "en": "Return Home",
           "id": "Kembali ke Tanah Air"
@@ -287,10 +268,11 @@
     ]
   },
   {
-    "id": "2",
+    "id": "exclusive",
+    "type": "umrah",
     "title": {
-      "en": "Standard Umrah Package",
-      "id": "Paket Umrah Standar"
+      "en": "Exclusive Umrah Package",
+      "id": "Paket Umrah Eksklusif"
     },
     "subtitle": {
       "en": "Comfortable 10-Day Journey",
@@ -301,8 +283,8 @@
       "id": "Perjalanan komprehensif 10 hari dengan akomodasi nyaman bintang 4"
     },
     "fullDescription": {
-      "en": "Our Standard Umrah Package offers a comprehensive 10-day journey with comfortable 4-star accommodations in Makkah and Madinah. Enjoy group guidance from experienced scholars and all the essential services for a fulfilling Umrah experience.",
-      "id": "Paket Umrah Standar kami menawarkan perjalanan komprehensif 10 hari dengan akomodasi nyaman bintang 4 di Makkah dan Madinah. Nikmati bimbingan kelompok dari ulama berpengalaman dan semua layanan penting untuk pengalaman Umrah yang memuaskan."
+      "en": "Our Exclusive Umrah Package offers a comprehensive 10-day journey with comfortable 4-star accommodations in Makkah and Madinah. Enjoy group guidance from experienced scholars and all the essential services for a fulfilling Umrah experience.",
+      "id": "Paket Umrah Eksklusif kami menawarkan perjalanan komprehensif 10 hari dengan akomodasi nyaman bintang 4 di Makkah dan Madinah. Nikmati bimbingan kelompok dari ulama berpengalaman dan semua layanan penting untuk pengalaman Umrah yang memuaskan."
     },
     "price": {
       "en": "$2,100",
@@ -550,109 +532,110 @@
     ]
   },
   {
-    "id": "3",
+    "id": "platinum",
+    "type": "umrah",
     "title": {
-      "en": "Economy Umrah Package",
-      "id": "Paket Umrah Ekonomi"
+      "en": "Platinum Umrah Package",
+      "id": "Paket Umrah Platinum"
     },
     "subtitle": {
-      "en": "Affordable 10-Day Journey",
-      "id": "Perjalanan Terjangkau 10 Hari"
+      "en": "Luxury 12-Day Journey",
+      "id": "Perjalanan Mewah 12 Hari"
     },
     "description": {
-      "en": "10-day journey to the holy cities with comfortable 3-star accommodations",
-      "id": "Perjalanan 10 hari ke kota suci dengan akomodasi nyaman bintang 3"
+      "en": "All-inclusive 12-day journey to Makkah and Madinah with 5-star accommodations",
+      "id": "Perjalanan 12 hari ke Makkah dan Madinah dengan akomodasi bintang 5"
     },
     "fullDescription": {
-      "en": "Our Economy Umrah Package offers an affordable 10-day journey with comfortable 3-star accommodations in Makkah and Madinah. This package includes all the essential services for a meaningful Umrah experience at a budget-friendly price.",
-      "id": "Paket Umrah Ekonomi kami menawarkan perjalanan terjangkau 10 hari dengan akomodasi nyaman bintang 3 di Makkah dan Madinah. Paket ini mencakup semua layanan penting untuk pengalaman Umrah yang bermakna dengan harga yang ramah anggaran."
+      "en": "Experience the ultimate spiritual journey with our Platinum Umrah Package. This all-inclusive 12-day journey offers 5-star accommodations in Makkah and Madinah, private transportation, and personalized guidance from experienced scholars.",
+      "id": "Alami perjalanan spiritual terbaik dengan Paket Umrah Platinum kami. Perjalanan all-inclusive 12 hari ini menawarkan akomodasi bintang 5 di Makkah dan Madinah, transportasi pribadi, dan bimbingan personal dari ulama berpengalaman."
     },
     "price": {
-      "en": "$1,800",
-      "id": "Rp 25.000.000"
+      "en": "$2,500",
+      "id": "Rp 35.000.000"
     },
     "priceNote": {
-      "en": "per person (quad occupancy)",
-      "id": "per orang (kamar berempat)"
+      "en": "per person (double occupancy)",
+      "id": "per orang (kamar berdua)"
     },
-    "duration": 10,
-    "groupSize": "20-30",
+    "duration": 12,
+    "groupSize": "15-20",
     "departureDate": {
       "en": "Multiple dates available",
       "id": "Tersedia beberapa tanggal keberangkatan"
     },
     "departureDates": [
       {
-        "id": "3-1",
+        "id": "1-1",
         "date": {
-          "en": "January 10, 2025",
-          "id": "10 Januari 2025"
+          "en": "January 15, 2025",
+          "id": "15 Januari 2025"
         }
       },
       {
-        "id": "3-2",
+        "id": "1-2",
         "date": {
-          "en": "February 15, 2025",
-          "id": "15 Februari 2025"
+          "en": "February 20, 2025",
+          "id": "20 Februari 2025"
         }
       },
       {
-        "id": "3-3",
+        "id": "1-3",
         "date": {
-          "en": "March 25, 2025",
-          "id": "25 Maret 2025"
+          "en": "March 10, 2025",
+          "id": "10 Maret 2025"
         }
       }
     ],
-    "airlines": "Saudi Airlines, Lion Air",
+    "airlines": "Garuda Indonesia, Saudi Airlines",
     "banner": "/images/banner3.jpg",
-    "flyer": "/images/package-4.jpg",
+    "flyer": "/images/package-1.jpg",
     "features": [
       {
-        "en": "3-star hotel accommodations in Makkah and Madinah",
-        "id": "Akomodasi hotel bintang 3 di Makkah dan Madinah"
+        "en": "5-star hotel accommodations in Makkah and Madinah",
+        "id": "Akomodasi hotel bintang 5 di Makkah dan Madinah"
       },
       {
-        "en": "Shared transportation throughout the journey",
-        "id": "Transportasi bersama selama perjalanan"
+        "en": "Private transportation throughout the journey",
+        "id": "Transportasi pribadi selama perjalanan"
       },
       {
-        "en": "Regular flights with transit",
-        "id": "Penerbangan reguler dengan transit"
+        "en": "Direct flights with premium airlines",
+        "id": "Penerbangan langsung dengan maskapai premium"
       },
       {
-        "en": "Group guidance from experienced scholars",
-        "id": "Bimbingan kelompok dari ulama berpengalaman"
+        "en": "Personalized guidance from experienced scholars",
+        "id": "Bimbingan personal dari ulama berpengalaman"
       },
       {
-        "en": "All meals included",
-        "id": "Semua makanan termasuk"
+        "en": "All meals included with premium dining options",
+        "id": "Semua makanan termasuk dengan pilihan makan premium"
       }
     ],
     "includes": [
       {
-        "en": "Return flights with transit",
-        "id": "Penerbangan pulang-pergi dengan transit"
+        "en": "Return flights with premium airlines",
+        "id": "Penerbangan pulang-pergi dengan maskapai premium"
       },
       {
-        "en": "3-star hotel accommodations in Makkah",
-        "id": "Akomodasi hotel bintang 3 di Makkah"
+        "en": "5-star hotel accommodations in Makkah (near Haram)",
+        "id": "Akomodasi hotel bintang 5 di Makkah (dekat Haram)"
       },
       {
-        "en": "3-star hotel accommodations in Madinah",
-        "id": "Akomodasi hotel bintang 3 di Madinah"
+        "en": "5-star hotel accommodations in Madinah (near Masjid Nabawi)",
+        "id": "Akomodasi hotel bintang 5 di Madinah (dekat Masjid Nabawi)"
       },
       {
-        "en": "Shared transportation throughout the journey",
-        "id": "Transportasi bersama selama perjalanan"
+        "en": "Private transportation throughout the journey",
+        "id": "Transportasi pribadi selama perjalanan"
       },
       {
-        "en": "All meals included",
-        "id": "Semua makanan termasuk"
+        "en": "All meals with premium dining options",
+        "id": "Semua makanan dengan pilihan makan premium"
       },
       {
-        "en": "Group guidance from experienced scholars",
-        "id": "Bimbingan kelompok dari ulama berpengalaman"
+        "en": "Personalized guidance from experienced scholars",
+        "id": "Bimbingan personal dari ulama berpengalaman"
       },
       {
         "en": "Umrah visa processing and fees",
@@ -687,10 +670,6 @@
       {
         "en": "Laundry services",
         "id": "Layanan laundry"
-      },
-      {
-        "en": "Room service and additional meals",
-        "id": "Layanan kamar dan makanan tambahan"
       }
     ],
     "itinerary": [
@@ -701,8 +680,8 @@
           "id": "Keberangkatan"
         },
         "description": {
-          "en": "Gather at the airport for check-in. Depart for Madinah with transit.",
-          "id": "Berkumpul di bandara untuk check-in. Berangkat ke Madinah dengan transit."
+          "en": "Gather at the airport for check-in. Depart for Madinah via direct flight.",
+          "id": "Berkumpul di bandara untuk check-in. Berangkat ke Madinah melalui penerbangan langsung."
         },
         "icon": "Plane"
       },
@@ -733,17 +712,29 @@
       {
         "day": 4,
         "title": {
+          "en": "Madinah - Free Day",
+          "id": "Madinah - Hari Bebas"
+        },
+        "description": {
+          "en": "Free day for worship at Masjid Nabawi and personal reflection.",
+          "id": "Hari bebas untuk beribadah di Masjid Nabawi dan refleksi pribadi."
+        },
+        "icon": "Clock"
+      },
+      {
+        "day": 5,
+        "title": {
           "en": "Madinah to Makkah",
           "id": "Madinah ke Makkah"
         },
         "description": {
-          "en": "Check-out from hotel. Travel to Makkah by bus. Stop at Miqat for Ihram. Arrive in Makkah and check-in to hotel.",
-          "id": "Check-out dari hotel. Perjalanan ke Makkah dengan bus. Berhenti di Miqat untuk Ihram. Tiba di Makkah dan check-in ke hotel."
+          "en": "Check-out from hotel. Travel to Makkah by private bus. Stop at Miqat for Ihram. Arrive in Makkah and check-in to hotel.",
+          "id": "Check-out dari hotel. Perjalanan ke Makkah dengan bus pribadi. Berhenti di Miqat untuk Ihram. Tiba di Makkah dan check-in ke hotel."
         },
         "icon": "Bus"
       },
       {
-        "day": 5,
+        "day": 6,
         "title": {
           "en": "Umrah Rituals",
           "id": "Ritual Umrah"
@@ -755,7 +746,7 @@
         "icon": "MapPin"
       },
       {
-        "day": 6,
+        "day": 7,
         "title": {
           "en": "Makkah Ziyarat",
           "id": "Ziarah Makkah"
@@ -765,18 +756,6 @@
           "id": "Mengunjungi situs bersejarah di Makkah termasuk Jabal Nur (Gua Hira), Jabal Thawr, dan Hudaibiyah."
         },
         "icon": "MapPin"
-      },
-      {
-        "day": 7,
-        "title": {
-          "en": "Makkah - Free Day",
-          "id": "Makkah - Hari Bebas"
-        },
-        "description": {
-          "en": "Free day for worship at Masjid Al-Haram and personal reflection.",
-          "id": "Hari bebas untuk beribadah di Masjid Al-Haram dan refleksi pribadi."
-        },
-        "icon": "Clock"
       },
       {
         "day": 8,
@@ -793,6 +772,30 @@
       {
         "day": 9,
         "title": {
+          "en": "Makkah - Free Day",
+          "id": "Makkah - Hari Bebas"
+        },
+        "description": {
+          "en": "Free day for worship at Masjid Al-Haram and personal reflection.",
+          "id": "Hari bebas untuk beribadah di Masjid Al-Haram dan refleksi pribadi."
+        },
+        "icon": "Clock"
+      },
+      {
+        "day": 10,
+        "title": {
+          "en": "Makkah - Free Day",
+          "id": "Makkah - Hari Bebas"
+        },
+        "description": {
+          "en": "Free day for worship at Masjid Al-Haram and personal reflection.",
+          "id": "Hari bebas untuk beribadah di Masjid Al-Haram dan refleksi pribadi."
+        },
+        "icon": "Clock"
+      },
+      {
+        "day": 11,
+        "title": {
           "en": "Farewell Tawaf & Departure Preparation",
           "id": "Tawaf Wada & Persiapan Keberangkatan"
         },
@@ -803,7 +806,7 @@
         "icon": "MapPin"
       },
       {
-        "day": 10,
+        "day": 12,
         "title": {
           "en": "Return Home",
           "id": "Kembali ke Tanah Air"

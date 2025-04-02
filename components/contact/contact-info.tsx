@@ -76,7 +76,7 @@ const ContactInfo = () => {
             rel="noopener noreferrer"
             className="bg-primary/10 hover:bg-primary/20 p-3 rounded-full transition-colors"
           >
-            <TiktokIcon className="h-5 w-5 text-primary fill-current" />
+          <TiktokIcon className="h-5 w-5 text-primary fill-current" /> 
           </Link>
           <Link
             href="https://facebook.com/@umrahwithagra"

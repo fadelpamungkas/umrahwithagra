@@ -9,7 +9,7 @@ const Hero = () => {
   const { t } = useLanguage()
 
   return (
-    <section className="relative w-full min-h-[85vh] flex flex-col justify-center">
+    <section className="relative w-full min-h-screen flex flex-col justify-center">
       {/* Background image */}
       <div
         className="absolute inset-0 z-0 bg-cover bg-center"
@@ -30,7 +30,7 @@ const Hero = () => {
           <p className="text-lg md:text-xl text-white/80 mb-8 max-w-2xl mx-auto">{t("home.hero.subtitle")}</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/umrah">
-              <Button size="lg" className="text-base font-medium bg-primary hover:bg-primary/90">
+              <Button size="lg" className="text-base font-medium bg-primary hover:bg-primary/90 cursor-pointer">
                 {t("home.hero.cta")}
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
@@ -42,7 +42,7 @@ const Hero = () => {
               <Button
                 size="lg"
                 variant="outline"
-                className="text-base font-medium bg-transparent border-white text-white hover:bg-white/80"
+                className="text-base font-medium bg-transparent border-white text-white hover:bg-white/80 cursor-pointer"
               >
                 {t("cta.contact")}
               </Button>

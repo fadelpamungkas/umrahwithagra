@@ -1,6 +1,7 @@
 "use client"
 
 import { useLanguage } from "@/components/language-provider"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Shield, Award, Hotel, MapPin, Clock, HeartHandshake } from "lucide-react"
 
 const benefits = [
@@ -90,16 +91,17 @@ const Benefits = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {benefits.map((benefit, index) => (
-            <div
-              key={index}
-              className="flex flex-col items-center text-center p-6 rounded-lg bg-secondary/20 hover:bg-secondary/40 transition-colors"
-            >
-              <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-                <benefit.icon className="h-7 w-7 text-primary" />
-              </div>
-              <h3 className="font-caviar-dreams text-xl font-bold mb-2">{benefit.title[language]}</h3>
-              <p className="text-muted-foreground">{benefit.description[language]}</p>
-            </div>
+            <Card key={index} className="flex flex-col items-center text-center shadow-md border-0">
+              <CardHeader className="pb-2 flex items-center justify-center">
+                <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mb-4">
+                  <benefit.icon className="h-7 w-7 text-primary" />
+                </div>
+                <CardTitle className="font-caviar-dreams text-xl">{benefit.title[language]}</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="text-sm">{benefit.description[language]}</CardDescription>
+              </CardContent>
+            </Card>
           ))}
         </div>
       </div>

@@ -16,6 +16,7 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu"
 import { LanguageSwitcher } from "./language-switcher"
+import { ThemeSwitcher } from "./theme-switcher"
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -51,7 +52,7 @@ const Header = () => {
                       className={cn(
                         navigationMenuTriggerStyle(),
                         "font-caviar-dreams",
-                        pathname === route.href ? "border border-primary/70 text-primary font-bold" : "font-bold",
+                        pathname === route.href ? "border border-primary/70 text-primary hover:text-primary font-bold" : "font-bold",
                       )}
                     >
                       {route.label}
@@ -64,11 +65,13 @@ const Header = () => {
 
         </div>
         <div className="hidden md:flex items-center gap-4">
+          <ThemeSwitcher />
           <LanguageSwitcher />
         </div>
 
         {/* Mobile Navigation */}
         <div className="md:hidden flex items-center gap-2">
+          <ThemeSwitcher />
           <LanguageSwitcher />
           <Button variant="ghost" size="icon" aria-label="Toggle Menu" onClick={toggleMenu}>
             {isMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}

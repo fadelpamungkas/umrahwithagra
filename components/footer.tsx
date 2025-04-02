@@ -39,7 +39,7 @@ const Footer = () => {
                 className="text-primary-foreground hover:text-accent transition-colors"
                 aria-label="Tiktok"
               >
-                <TiktokIcon className="h-5 w-5 fill-current" />
+              <TiktokIcon className="h-5 w-5 fill-current" />
               </Link>
               <Link
                 href="https://facebook.com/@umrahwithagra"

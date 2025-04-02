@@ -6,76 +6,14 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { CalendarDays, Users, ArrowRight } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
+import packageData from "@/data/umrah-packages.json"
 
-// umroh reguler, umroh eksklusif, umroh platinum 
-const packages = [
-  {
-    id: 1,
-    title: {
-      en: "Reguler Umrah",
-      id: "Umrah Reguler",
-    },
-    description: {
-      en: "All-inclusive 12-day journey to Makkah and Madinah with 5-star accommodations",
-      id: "Perjalanan 12 hari ke Makkah dan Madinah dengan akomodasi bintang 5",
-    },
-    image: "/images/package-1.jpg",
-    duration: 12,
-    groupSize: "15-20",
-    type: "umrah",
-    featured: true,
-    price: {
-      en: "Starting from $2,500",
-      id: "Mulai dari Rp 35.000.000",
-    },
-  },
-  {
-    id: 2,
-    title: {
-      en: "Exclusive Umrah",
-      id: "Umrah Eksklusif",
-    },
-    description: {
-      en: "10-day journey to the holy cities with comfortable 3-star accommodations",
-      id: "Perjalanan 10 hari ke kota suci dengan akomodasi nyaman bintang 3",
-    },
-    image: "/images/package-2.jpg",
-    duration: 10,
-    groupSize: "20-25",
-    type: "umrah",
-    featured: true,
-    price: {
-      en: "Starting from $1,800",
-      id: "Mulai dari Rp 25.000.000",
-    },
-  },
-  {
-    id: 3,
-    title: {
-      en: "Platinum Umrah",
-      id: "Umrah Platinum",
-    },
-    description: {
-      en: "Premium 3-week hajj journey with luxury accommodations and personalized service",
-      id: "Perjalanan haji premium 3 minggu dengan akomodasi mewah dan layanan personal",
-    },
-    image: "/images/package-4.jpg",
-    duration: 21,
-    groupSize: "10-15",
-    type: "umrah",
-    featured: true,
-    price: {
-      en: "Starting from $9,500",
-      id: "Mulai dari Rp 135.000.000",
-    },
-  },
-]
 
 const FeaturedPackages = () => {
   const { t, language } = useLanguage()
 
   return (
-    <section className="bg-secondary/30 py-16 md:py-24">
+    <section className="py-16 md:py-24">
       <div className="container px-4">
         <div className="text-center mb-12 md:mb-16">
           <h2 className="font-serif text-3xl md:text-4xl font-bold text-primary mb-4">{t("home.featured.title")}</h2>
@@ -88,11 +26,11 @@ const FeaturedPackages = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {packages.map((pkg) => (
-            <Card key={pkg.id} className="overflow-hidden hover:shadow-lg transition-shadow group">
+          {packageData.map((pkg) => (
+            <Card key={pkg.id} className="overflow-hidden shadow-md border-0 transition-shadow group">
               <div className="relative h-48 overflow-hidden">
                 <Image
-                  src={pkg.image || "/placeholder.svg"}
+                  src={pkg.banner || "/placeholder.svg"}
                   fill
                   alt={pkg.title[language]}
                   className="object-cover group-hover:scale-105 transition-transform duration-300"
@@ -117,12 +55,14 @@ const FeaturedPackages = () => {
                       {pkg.groupSize}
                     </div>
                   </div>
-                  <p className="font-bold text-primary text-lg mt-2">{pkg.price[language]}</p>
+                  <p className="font-bold text-primary text-lg mt-2">
+                    {language === "en" ? "Starting from" : "Mulai dari"} {pkg.price[language]}
+                  </p>
                 </div>
               </CardContent>
               <CardFooter>
                 <Link href={`/${pkg.type === "hajj" ? "hajj" : "umrah"}/${pkg.id}`} className="w-full">
-                  <Button variant="outline" className="w-full">
+                  <Button variant="outline" className="w-full cursor-pointer hover:text-white">
                     {language === "en" ? "View Details" : "Lihat Detail"}
                   </Button>
                 </Link>
