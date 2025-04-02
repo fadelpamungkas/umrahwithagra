@@ -9,7 +9,7 @@ const Hero = () => {
   const { t } = useLanguage()
 
   return (
-    <section className="relative w-full min-h-screen flex flex-col justify-center">
+    <section className="relative w-full min-h-[60vh] flex flex-col justify-center">
       {/* Background image */}
       <div
         className="absolute inset-0 z-0 bg-cover bg-center"

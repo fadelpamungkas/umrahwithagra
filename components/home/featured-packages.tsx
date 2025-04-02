@@ -70,16 +70,6 @@ const FeaturedPackages = () => {
             </Card>
           ))}
         </div>
-
-        {/*<div className="text-center mt-12">
-          <Link href="/packages">
-            <Button>
-              {language === "en" ? "View All Packages" : "Lihat Semua Paket"}
-              <ArrowRight className="ml-2 h-4 w-4" />
-            </Button>
-          </Link>
-        </div>
-        */}
       </div>
     </section>
   )
