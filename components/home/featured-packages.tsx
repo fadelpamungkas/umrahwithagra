@@ -56,7 +56,7 @@ const FeaturedPackages = () => {
                     </div>
                   </div>
                   <p className="font-bold text-primary text-lg mt-2">
-                    {language === "en" ? "Starting from" : "Mulai dari"} {pkg.price[language]}
+                    {pkg.cheapestPrice[language]}
                   </p>
                 </div>
               </CardContent>

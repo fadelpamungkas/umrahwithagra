@@ -44,7 +44,7 @@ const UmrahPackages = () => {
                   </div>
                 </div>
 
-                <p className="font-bold text-2xl text-primary mb-4">{pkg.price[language]}</p>
+                <p className="font-bold text-2xl text-primary mb-4">{pkg.cheapestPrice[language]}</p>
 
                 <ul className="space-y-2 mb-4">
                   {pkg.features.map((feature, idx) => (

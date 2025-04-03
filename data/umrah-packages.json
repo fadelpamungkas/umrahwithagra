@@ -7,26 +7,40 @@
       "id": "Paket Umrah Reguler"
     },
     "subtitle": {
-      "en": "Affordable 10-Day Journey",
-      "id": "Perjalanan Terjangkau 10 Hari"
+      "en": "Affordable 9-Day Journey",
+      "id": "Perjalanan Terjangkau 9 Hari"
     },
     "description": {
-      "en": "10-day journey to the holy cities with comfortable 3-star accommodations",
-      "id": "Perjalanan 10 hari ke kota suci dengan akomodasi nyaman bintang 3"
+      "en": "9-day journey to the holy cities with comfortable 4-star accommodations",
+      "id": "Perjalanan 9 hari ke kota suci dengan akomodasi nyaman bintang 4"
     },
     "fullDescription": {
-      "en": "Our Reguler Umrah Package offers an affordable 10-day journey with comfortable 3-star accommodations in Makkah and Madinah. This package includes all the essential services for a meaningful Umrah experience at a budget-friendly price.",
-      "id": "Paket Umrah Reguler kami menawarkan perjalanan terjangkau 10 hari dengan akomodasi nyaman bintang 3 di Makkah dan Madinah. Paket ini mencakup semua layanan penting untuk pengalaman Umrah yang bermakna dengan harga yang ramah anggaran."
+      "en": "Our Reguler Umrah Package offers an affordable 9-day journey with comfortable 4-star accommodations in Makkah and Madinah. This package includes all the essential services for a meaningful Umrah experience at a budget-friendly price.",
+      "id": "Paket Umrah Reguler kami menawarkan perjalanan terjangkau 9 hari dengan akomodasi nyaman bintang 4 di Makkah dan Madinah. Paket ini mencakup semua layanan penting untuk pengalaman Umrah yang bermakna dengan harga yang ramah anggaran."
     },
-    "price": {
-      "en": "$1,800",
-      "id": "Rp 25.000.000"
+    "cheapestPrice": {
+      "en": "Starting from $1,800",
+      "id": "Mulai dari Rp30.000.000"
+    },
+    "pricing": {
+      "quad": {
+        "en": "$1,800 per person",
+        "id": "Rp30.000.000 per orang"
+      },
+      "triple": {
+        "en": "$1,855 per person",
+        "id": "Rp31.000.000 per orang"
+      },
+      "double": {
+        "en": "$1,915 per person",
+        "id": "Rp32.000.000 per orang"
+      }
     },
     "priceNote": {
       "en": "per person (quad occupancy)",
       "id": "per orang (kamar berempat)"
     },
-    "duration": 10,
+    "duration": 9,
     "groupSize": "20-30",
     "departureDate": {
       "en": "Multiple dates available",
@@ -60,8 +74,8 @@
     "flyer": "/images/package-4.jpg",
     "features": [
       {
-        "en": "3-star hotel accommodations in Makkah and Madinah",
-        "id": "Akomodasi hotel bintang 3 di Makkah dan Madinah"
+        "en": "4-star hotel accommodations in Makkah and Madinah",
+        "id": "Akomodasi hotel bintang 4 di Makkah dan Madinah"
       },
       {
         "en": "Shared transportation throughout the journey",
@@ -86,12 +100,12 @@
         "id": "Penerbangan pulang-pergi dengan transit"
       },
       {
-        "en": "3-star hotel accommodations in Makkah",
-        "id": "Akomodasi hotel bintang 3 di Makkah"
+        "en": "5-star hotel accommodations in Makkah (Le Meridien/Equivalent)",
+        "id": "Akomodasi hotel bintang 5 di Makkah (Le Meridien/Setaraf)"
       },
       {
-        "en": "3-star hotel accommodations in Madinah",
-        "id": "Akomodasi hotel bintang 3 di Madinah"
+        "en": "4-star hotel accommodations in Madinah (Mirage Salam/Equivalent)",
+        "id": "Akomodasi hotel bintang 4 di Madinah (Mirage Salam/Setaraf)"
       },
       {
         "en": "Shared transportation throughout the journey",
@@ -116,6 +130,14 @@
       {
         "en": "Zamzam water (5 liters)",
         "id": "Air Zamzam (5 liter)"
+      },
+      {
+        "en": "Travel insurance",
+        "id": "Asuransi perjalanan"
+      },
+      {
+        "en": "High Speed Train",
+        "id": "Kereta Cepat"
       }
     ],
     "excludes": [
@@ -124,24 +146,20 @@
         "id": "Pengeluaran pribadi dan belanja"
       },
       {
-        "en": "Travel insurance",
-        "id": "Asuransi perjalanan"
-      },
-      {
-        "en": "PCR tests or other medical tests if required",
-        "id": "Tes PCR atau tes medis lainnya jika diperlukan"
-      },
-      {
         "en": "Excess baggage fees",
         "id": "Biaya kelebihan bagasi"
       },
       {
-        "en": "Laundry services",
-        "id": "Layanan laundry"
+        "en": "Passport processing fees",
+        "id": "Biaya pembuatan passport"
       },
       {
-        "en": "Room service and additional meals",
-        "id": "Layanan kamar dan makanan tambahan"
+        "en": "Vaccination fees (Meningitis)",
+        "id": "Biaya Vaksin Meningitis"
+      },
+      {
+        "en": "Telephone Bill, Payview TV, Mini Bar, and all usage of hotel facilities/services",
+        "id": "Telephone Bill, Payview TV, Mini Bar, dan semua pemakaian fasilitas/layanan di hotel"
       }
     ],
     "itinerary": [
@@ -275,26 +293,40 @@
       "id": "Paket Umrah Eksklusif"
     },
     "subtitle": {
-      "en": "Comfortable 10-Day Journey",
-      "id": "Perjalanan Nyaman 10 Hari"
+      "en": "Comfortable 9-Day Journey",
+      "id": "Perjalanan Nyaman 9 Hari"
     },
     "description": {
-      "en": "Comprehensive 10-day journey with comfortable 4-star accommodations",
-      "id": "Perjalanan komprehensif 10 hari dengan akomodasi nyaman bintang 4"
+      "en": "Comprehensive 9-day journey with comfortable 4-star accommodations",
+      "id": "Perjalanan komprehensif 9 hari dengan akomodasi nyaman bintang 4"
     },
     "fullDescription": {
-      "en": "Our Exclusive Umrah Package offers a comprehensive 10-day journey with comfortable 4-star accommodations in Makkah and Madinah. Enjoy group guidance from experienced scholars and all the essential services for a fulfilling Umrah experience.",
-      "id": "Paket Umrah Eksklusif kami menawarkan perjalanan komprehensif 10 hari dengan akomodasi nyaman bintang 4 di Makkah dan Madinah. Nikmati bimbingan kelompok dari ulama berpengalaman dan semua layanan penting untuk pengalaman Umrah yang memuaskan."
+      "en": "Our Exclusive Umrah Package offers a comprehensive 9-day journey with comfortable 4-star accommodations in Makkah and Madinah. Enjoy group guidance from experienced scholars and all the essential services for a fulfilling Umrah experience.",
+      "id": "Paket Umrah Eksklusif kami menawarkan perjalanan komprehensif 9 hari dengan akomodasi nyaman bintang 4 di Makkah dan Madinah. Nikmati bimbingan kelompok dari ulama berpengalaman dan semua layanan penting untuk pengalaman Umrah yang memuaskan."
     },
-    "price": {
-      "en": "$2,100",
-      "id": "Rp 30.000.000"
+    "cheapestPrice": {
+      "en": "Starting from $2,200",
+      "id": "Mulai dari Rp36.900.000"
+    },
+    "pricing": {
+      "quad": {
+        "en": "$2,200 per person",
+        "id": "Rp36.900.000 per orang"
+      },
+      "triple": {
+        "en": "$2,250 per person",
+        "id": "Rp37.600.000 per orang"
+      },
+      "double": {
+        "en": "$2,390 per person",
+        "id": "Rp39.900.000 per orang"
+      }
     },
     "priceNote": {
       "en": "per person (double occupancy)",
       "id": "per orang (kamar berdua)"
     },
-    "duration": 10,
+    "duration": 9,
     "groupSize": "15-25",
     "departureDate": {
       "en": "Multiple dates available",
@@ -354,12 +386,12 @@
         "id": "Penerbangan pulang-pergi dengan maskapai terpercaya"
       },
       {
-        "en": "4-star hotel accommodations in Makkah (near Haram)",
-        "id": "Akomodasi hotel bintang 4 di Makkah (dekat Haram)"
+        "en": "5-star hotel accommodations in Makkah (Makarem Ajyad Makkah/Equivalent)",
+        "id": "Akomodasi hotel bintang 5 di Makkah (Makarem Ajyad Makkah/Setaraf)"
       },
       {
-        "en": "4-star hotel accommodations in Madinah (near Masjid Nabawi)",
-        "id": "Akomodasi hotel bintang 4 di Madinah (dekat Masjid Nabawi)"
+        "en": "4-star hotel accommodations in Madinah (Nozol Inn/Equivalent)",
+        "id": "Akomodasi hotel bintang 4 di Madinah (Nozol Inn/Setaraf)"
       },
       {
         "en": "Comfortable transportation throughout the journey",
@@ -384,6 +416,14 @@
       {
         "en": "Zamzam water (5 liters)",
         "id": "Air Zamzam (5 liter)"
+      },
+      {
+        "en": "Travel insurance",
+        "id": "Asuransi perjalanan"
+      },
+      {
+        "en": "High Speed Train",
+        "id": "Kereta Cepat"
       }
     ],
     "excludes": [
@@ -392,20 +432,20 @@
         "id": "Pengeluaran pribadi dan belanja"
       },
       {
-        "en": "Travel insurance",
-        "id": "Asuransi perjalanan"
-      },
-      {
-        "en": "PCR tests or other medical tests if required",
-        "id": "Tes PCR atau tes medis lainnya jika diperlukan"
-      },
-      {
         "en": "Excess baggage fees",
         "id": "Biaya kelebihan bagasi"
       },
       {
-        "en": "Laundry services",
-        "id": "Layanan laundry"
+        "en": "Passport processing fees",
+        "id": "Biaya pembuatan passport"
+      },
+      {
+        "en": "Vaccination fees (Meningitis)",
+        "id": "Biaya Vaksin Meningitis"
+      },
+      {
+        "en": "Telephone Bill, Payview TV, Mini Bar, and all usage of hotel facilities/services",
+        "id": "Telephone Bill, Payview TV, Mini Bar, dan semua pemakaian fasilitas/layanan di hotel"
       }
     ],
     "itinerary": [
@@ -539,26 +579,40 @@
       "id": "Paket Umrah Platinum"
     },
     "subtitle": {
-      "en": "Luxury 12-Day Journey",
-      "id": "Perjalanan Mewah 12 Hari"
+      "en": "Luxury 9-Day Journey",
+      "id": "Perjalanan Mewah 9 Hari"
     },
     "description": {
-      "en": "All-inclusive 12-day journey to Makkah and Madinah with 5-star accommodations",
-      "id": "Perjalanan 12 hari ke Makkah dan Madinah dengan akomodasi bintang 5"
+      "en": "All-inclusive 9-day journey to Makkah and Madinah with 5-star accommodations",
+      "id": "Perjalanan 9 hari ke Makkah dan Madinah dengan akomodasi bintang 5"
     },
     "fullDescription": {
-      "en": "Experience the ultimate spiritual journey with our Platinum Umrah Package. This all-inclusive 12-day journey offers 5-star accommodations in Makkah and Madinah, private transportation, and personalized guidance from experienced scholars.",
-      "id": "Alami perjalanan spiritual terbaik dengan Paket Umrah Platinum kami. Perjalanan all-inclusive 12 hari ini menawarkan akomodasi bintang 5 di Makkah dan Madinah, transportasi pribadi, dan bimbingan personal dari ulama berpengalaman."
+      "en": "Experience the ultimate spiritual journey with our Platinum Umrah Package. This all-inclusive 9-day journey offers 5-star accommodations in Makkah and Madinah, private transportation, and personalized guidance from experienced scholars.",
+      "id": "Alami perjalanan spiritual terbaik dengan Paket Umrah Platinum kami. Perjalanan all-inclusive 9 hari ini menawarkan akomodasi bintang 5 di Makkah dan Madinah, transportasi pribadi, dan bimbingan personal dari ulama berpengalaman."
     },
-    "price": {
-      "en": "$2,500",
-      "id": "Rp 35.000.000"
+    "cheapestPrice": {
+      "en": "Starting from $2,580",
+      "id": "Mulai dari Rp43.200.000"
+    },
+    "pricing": {
+      "quad": {
+        "en": "$2,580 per person",
+        "id": "Rp43.200.000 per orang"
+      },
+      "triple": {
+        "en": "$2,775 per person",
+        "id": "Rp46.400.000 per orang"
+      },
+      "double": {
+        "en": "$3,015 per person",
+        "id": "Rp50.400.000 per orang"
+      }
     },
     "priceNote": {
       "en": "per person (double occupancy)",
       "id": "per orang (kamar berdua)"
     },
-    "duration": 12,
+    "duration": 9,
     "groupSize": "15-20",
     "departureDate": {
       "en": "Multiple dates available",
@@ -618,12 +672,12 @@
         "id": "Penerbangan pulang-pergi dengan maskapai premium"
       },
       {
-        "en": "5-star hotel accommodations in Makkah (near Haram)",
-        "id": "Akomodasi hotel bintang 5 di Makkah (dekat Haram)"
+        "en": "5-star hotel accommodations in Makkah (Swiss Makkah/Equivalent)",
+        "id": "Akomodasi hotel bintang 5 di Makkah (Swiss Makkah/Setaraf)"
       },
       {
-        "en": "5-star hotel accommodations in Madinah (near Masjid Nabawi)",
-        "id": "Akomodasi hotel bintang 5 di Madinah (dekat Masjid Nabawi)"
+        "en": "5-star hotel accommodations in Madinah (Maden/Equivalent)",
+        "id": "Akomodasi hotel bintang 5 di Madinah (Maden/Setaraf)"
       },
       {
         "en": "Private transportation throughout the journey",
@@ -648,6 +702,14 @@
       {
         "en": "Zamzam water (5 liters)",
         "id": "Air Zamzam (5 liter)"
+      },
+      {
+        "en": "Travel insurance",
+        "id": "Asuransi perjalanan"
+      },
+      {
+        "en": "High Speed Train",
+        "id": "Kereta Cepat"
       }
     ],
     "excludes": [
@@ -656,20 +718,20 @@
         "id": "Pengeluaran pribadi dan belanja"
       },
       {
-        "en": "Travel insurance",
-        "id": "Asuransi perjalanan"
-      },
-      {
-        "en": "PCR tests or other medical tests if required",
-        "id": "Tes PCR atau tes medis lainnya jika diperlukan"
-      },
-      {
         "en": "Excess baggage fees",
         "id": "Biaya kelebihan bagasi"
       },
       {
-        "en": "Laundry services",
-        "id": "Layanan laundry"
+        "en": "Passport processing fees",
+        "id": "Biaya pembuatan passport"
+      },
+      {
+        "en": "Vaccination fees (Meningitis)",
+        "id": "Biaya Vaksin Meningitis"
+      },
+      {
+        "en": "Telephone Bill, Payview TV, Mini Bar, and all usage of hotel facilities/services",
+        "id": "Telephone Bill, Payview TV, Mini Bar, dan semua pemakaian fasilitas/layanan di hotel"
       }
     ],
     "itinerary": [

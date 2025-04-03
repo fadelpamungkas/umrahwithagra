@@ -6,6 +6,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent } from "@/components/ui/card"
 import { Check, X, CalendarDays, Users, Clock, MapPin, Plane, Hotel, Utensils, Bus } from "lucide-react"
+import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import Image from "next/image"
 import Link from "next/link"
 import { useParams } from "next/navigation"
@@ -35,6 +36,7 @@ const UmrahPackageDetail = () => {
   const [selectedDate, setSelectedDate] = useState<string>(
     packageInfo.departureDates && packageInfo.departureDates.length > 0 ? packageInfo.departureDates[0].id : "",
   )
+  const [selectedOptions, setSelectedOptions] = useState<string>("")
 
   // Get the selected date text based on the ID
   const getSelectedDateText = () => {
@@ -46,10 +48,12 @@ const UmrahPackageDetail = () => {
   // Create WhatsApp message with package and date information
   const createWhatsAppMessage = () => {
     const dateText = getSelectedDateText()
+    const options = selectedOptions ? selectedOptions.charAt(0).toUpperCase() + selectedOptions.slice(1) : ""
+    
     const message =
       language === "en"
-        ? `I'm interested in the ${packageInfo.title.en} package departing on ${dateText}. Can you provide more information?`
-        : `Saya tertarik dengan paket ${packageInfo.title.id} dengan keberangkatan pada ${dateText}. Bisakah Anda memberikan informasi lebih lanjut?`
+        ? `I'm interested in the ${packageInfo.title.en}${selectedOptions ? ` - ${options}` : ""} package departing on ${dateText}. Can you provide more information?`
+        : `Saya tertarik dengan paket ${packageInfo.title.id}${selectedOptions ? ` - ${options}` : ""} dengan keberangkatan pada ${dateText}. Bisakah Anda memberikan informasi lebih lanjut?`
 
     return encodeURIComponent(message)
   }
@@ -92,7 +96,7 @@ const UmrahPackageDetail = () => {
             </div>
 
             <div className="mt-8">
-              <div className="text-3xl font-bold text-secondary mb-1">{packageInfo.price[language]}</div>
+              <div className="text-3xl font-bold text-secondary mb-1">{packageInfo.cheapestPrice[language]}</div>
               <div className="text-sm text-white/70">{packageInfo.priceNote[language]}</div>
             </div>
           </div>
@@ -184,19 +188,65 @@ const UmrahPackageDetail = () => {
                     alt={packageInfo.title[language]}
                     width={400}
                     height={600}
-                    className="w-full object-cover"
+                    className="w-full object-cover h-100"
                   />
                 </div>
 
-                <div className="space-y-4">
+                <div className="space-y-3">
+                  <h3 className="font-serif text-xl font-bold">
+                    {language === "en" ? "Price Details" : "Detail Harga"}
+                  </h3>
+
+                  {/* Price Details with Best Deal Highlight */}
+                  <div className="mb-6">
+                    <div className="w-full flex-col items-start justify-between space-y-2">
+                      {Object.entries(packageInfo.pricing).map(([key, value], index) => {
+                        const displayName = key.charAt(0).toUpperCase() + key.slice(1);
+                        const isBestDeal = key === "triple";
+                        const isSelected = selectedOptions === key;
+
+                        return (
+                          <Card
+                            key={key}
+                            className={`cursor-pointer px-4 py-3 rounded-lg relative ${
+                              isSelected 
+                                ? "border-1 border-primary bg-primary/5" 
+                                : isBestDeal 
+                                  ? "border-1 border-primary" 
+                                  : "border-1 border-gray-200"
+                            }`}
+                            onClick={() => setSelectedOptions(key)}
+                          >
+                            <div className="flex justify-between items-center">
+                              <div>
+                                <h4 className="font-bold text-sm">{displayName}</h4>
+                                <p className="text-sm font-medium">{value[language]}</p>
+                              </div>
+
+                              <RadioGroup value={selectedOptions} onValueChange={setSelectedOptions} className="flex">
+                                <RadioGroupItem value={key} id={key} className="h-5 w-5" />
+                              </RadioGroup>
+                            </div>
+
+                            {isBestDeal && (
+                              <div className="absolute -top-2 -right-2 bg-primary text-white text-xs font-bold px-2 py-1 rounded-full">
+                                {language === "en" ? "Best Deal" : "Termurah"}
+                              </div>
+                            )}
+                          </Card>
+                        );
+                      })}
+                    </div>
+                  </div>
+
                   <h3 className="font-serif text-xl font-bold">
                     {language === "en" ? "Departure Dates" : "Tanggal Keberangkatan"}
                   </h3>
 
                   {/* Date Selection */}
-                  <div className="mb-4">
+                  <div className="mb-6">
                     <Select value={selectedDate} onValueChange={setSelectedDate}>
-                      <SelectTrigger className="w-full cursor-pointer">
+                      <SelectTrigger className="w-full cursor-pointer bg-white border-1 hover:border-primary">
                         <SelectValue
                           placeholder={language === "en" ? "Select a departure date" : "Pilih tanggal keberangkatan"}
                         />
@@ -218,9 +268,10 @@ const UmrahPackageDetail = () => {
                     rel="noopener noreferrer"
                     className="w-full"
                   >
-                    <Button className="w-full mt-4 cursor-pointer">{language === "en" ? "Book Now" : "Pesan Sekarang"}</Button>
+                    <Button className="w-full mt-4 cursor-pointer" disabled={!selectedDate}>
+                      {language === "en" ? "Book Now" : "Pesan Sekarang"}
+                    </Button> 
                   </Link>
-
                 </div>
               </div>
             </div>
