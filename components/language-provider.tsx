@@ -66,8 +66,8 @@ const translations: Translations = {
     id: "Apa Kata Jamaah Kami",
   },
   "home.posts.title": {
-    en: "Post",
-    id: "Post",
+    en: "Posts",
+    id: "Posts",
   },
   "home.faq.title": {
     en: "Frequently Asked Questions",
