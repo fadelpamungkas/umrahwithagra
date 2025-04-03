@@ -25,8 +25,8 @@ const galleryData: GalleryData = {
   umrah: [
     {
       id: 1,
-      src: "/images/package-4.jpg",
-      alt: "Umrah pilgrims at Kaaba",
+      src: "/images/gallery_1.jpg",
+      alt: "Umrah pilgrims",
       caption: {
         en: "Our pilgrims performing Tawaf around the Kaaba",
         id: "Jamaah kami melakukan Tawaf mengelilingi Ka'bah",
@@ -34,26 +34,26 @@ const galleryData: GalleryData = {
     },
     {
       id: 2,
-      src: "/images/banner2.jpg",
-      alt: "Group photo in Madinah",
+      src: "/images/gallery_2.jpg",
+      alt: "Umrah preparation",
       caption: {
-        en: "Group photo in front of Masjid Nabawi, Madinah",
-        id: "Foto grup di depan Masjid Nabawi, Madinah",
+        en: "Our pilgrims during the sacred journey",
+        id: "Jamaah kami selama perjalanan suci",
       },
     },
     {
       id: 3,
-      src: "/images/banner1.jpeg",
-      alt: "Umrah journey",
+      src: "/images/gallery_3.jpg",
+      alt: "Umrah group",
       caption: {
-        en: "Beautiful view of Makkah during our Umrah journey",
-        id: "Pemandangan indah Makkah selama perjalanan Umrah kami",
+        en: "Preparation session before departure",
+        id: "Sesi persiapan sebelum keberangkatan",
       },
     },
     {
       id: 4,
-      src: "/images/banner3.jpg",
-      alt: "Umrah pilgrims",
+      src: "/images/gallery_4.jpg",
+      alt: "Umrah preparation",
       caption: {
         en: "Our pilgrims during the sacred journey",
         id: "Jamaah kami selama perjalanan suci",
@@ -61,16 +61,7 @@ const galleryData: GalleryData = {
     },
     {
       id: 5,
-      src: "/images/package-1.jpg",
-      alt: "Umrah preparation",
-      caption: {
-        en: "Preparation session before departure",
-        id: "Sesi persiapan sebelum keberangkatan",
-      },
-    },
-    {
-      id: 6,
-      src: "/images/package-2.jpg",
+      src: "/images/gallery_5.jpg",
       alt: "Umrah group",
       caption: {
         en: "Our Umrah group enjoying their spiritual journey",
