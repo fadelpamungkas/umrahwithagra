@@ -10,6 +10,7 @@ import { LanguageProvider } from "@/components/language-provider"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
 import WhatsAppButton from "@/components/whatsapp-button"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 // Load custom font
 const caviarDreams = localFont({
@@ -54,7 +55,10 @@ export default function RootLayout({
           <LanguageProvider>
             <div className="flex min-h-screen flex-col">
               <Header />
-              <main className="flex-1">{children}</main>
+              <main className="flex-1">
+                {children}
+                <SpeedInsights />
+              </main>
               <Footer />
               <WhatsAppButton />
             </div>
