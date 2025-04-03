@@ -36,6 +36,26 @@
             "en": "Our packages typically include accommodation, transportation (including flights), visa processing, guidance through all rituals by experienced guides, meals, and Ziyarat (visits to historical sites). The specific inclusions vary by package type, so please check the details of each package.",
             "id": "Paket kami biasanya mencakup akomodasi, transportasi (termasuk penerbangan), pemrosesan visa, bimbingan melalui semua ritual oleh pemandu berpengalaman, makanan, dan Ziarah (kunjungan ke situs-situs bersejarah). Rincian spesifik bervariasi menurut jenis paket, jadi silakan periksa detail setiap paket."
           }
+        },
+        {
+          "question": {
+            "en": "What is the best time of year to perform Umrah?",
+            "id": "Kapan waktu terbaik dalam setahun untuk melakukan Umrah?"
+          },
+          "answer": {
+            "en": "While Umrah can be performed at any time, the most popular times are during Ramadan, the last 10 days of Ramadan, and during the Hajj season. The weather is most comfortable during the winter months (November to February). However, prices may be higher during peak seasons.",
+            "id": "Meskipun Umrah dapat dilakukan kapan saja, waktu paling populer adalah selama Ramadhan, 10 hari terakhir Ramadhan, dan selama musim Haji. Cuaca paling nyaman selama bulan-bulan musim dingin (November hingga Februari). Namun, harga mungkin lebih tinggi selama musim puncak."
+          }
+        },
+        {
+          "question": {
+            "en": "What should I pack for my Hajj or Umrah journey?",
+            "id": "Apa yang harus saya bawa untuk perjalanan Haji atau Umrah?"
+          },
+          "answer": {
+            "en": "Essential items include Ihram clothing, comfortable walking shoes, personal hygiene items, medications, prayer mat, water bottle, and basic first aid supplies. For women, pack appropriate hijab and abaya. Also bring photocopies of important documents and emergency contact information.",
+            "id": "Barang-barang penting meliputi pakaian Ihram, sepatu berjalan yang nyaman, perlengkapan kebersihan pribadi, obat-obatan, sajadah, botol air, dan perlengkapan pertolongan pertama dasar. Untuk wanita, bawa hijab dan abaya yang sesuai. Juga bawa fotokopi dokumen penting dan informasi kontak darurat."
+          }
         }
       ]
     },
@@ -74,6 +94,26 @@
           "answer": {
             "en": "Hajj and Umrah visas are specific to the pilgrimage and have a limited validity period. Extensions are generally not possible. If you wish to stay longer in Saudi Arabia, you would need to return to your home country and apply for a different type of visa.",
             "id": "Visa Haji dan Umrah khusus untuk ibadah dan memiliki masa berlaku terbatas. Perpanjangan umumnya tidak mungkin dilakukan. Jika Anda ingin tinggal lebih lama di Arab Saudi, Anda perlu kembali ke negara asal dan mengajukan visa jenis lain."
+          }
+        },
+        {
+          "question": {
+            "en": "What happens if my visa application is rejected?",
+            "id": "Apa yang terjadi jika aplikasi visa saya ditolak?"
+          },
+          "answer": {
+            "en": "If your visa application is rejected, we will help you identify the reason and guide you through the process of reapplying. Common reasons include incomplete documentation, invalid passport, or previous visa violations. We can assist in preparing a new application with the necessary corrections.",
+            "id": "Jika aplikasi visa Anda ditolak, kami akan membantu mengidentifikasi alasan dan membimbing Anda melalui proses pengajuan ulang. Alasan umum meliputi dokumen tidak lengkap, paspor tidak valid, atau pelanggaran visa sebelumnya. Kami dapat membantu menyiapkan aplikasi baru dengan koreksi yang diperlukan."
+          }
+        },
+        {
+          "question": {
+            "en": "Can I apply for a Hajj or Umrah visa if I have a different nationality than my passport?",
+            "id": "Bisakah saya mengajukan visa Haji atau Umrah jika saya memiliki kewarganegaraan berbeda dengan paspor saya?"
+          },
+          "answer": {
+            "en": "You must apply for the visa using the passport of your current nationality. If you have dual citizenship, you should use the passport that matches your country of residence. The visa must be applied for through the country where you currently reside.",
+            "id": "Anda harus mengajukan visa menggunakan paspor kewarganegaraan Anda saat ini. Jika Anda memiliki kewarganegaraan ganda, Anda harus menggunakan paspor yang sesuai dengan negara tempat tinggal Anda. Visa harus diajukan melalui negara tempat Anda tinggal saat ini."
           }
         }
       ]
@@ -114,6 +154,26 @@
             "en": "Yes, all our packages include daily meals (breakfast, lunch, and dinner). The quality and variety of food will depend on the package type. Premium packages offer a wider range of cuisines including international options, while standard and economy packages provide nutritious meals with some local and international choices. Special dietary requirements can be accommodated with advance notice.",
             "id": "Ya, semua paket kami termasuk makanan harian (sarapan, makan siang, dan makan malam). Kualitas dan variasi makanan akan tergantung pada jenis paket. Paket premium menawarkan berbagai masakan termasuk pilihan internasional, sementara paket standar dan ekonomi menyediakan makanan bergizi dengan beberapa pilihan lokal dan internasional. Kebutuhan diet khusus dapat diakomodasi dengan pemberitahuan sebelumnya."
           }
+        },
+        {
+          "question": {
+            "en": "What are the check-in and check-out times at the hotels?",
+            "id": "Apa waktu check-in dan check-out di hotel?"
+          },
+          "answer": {
+            "en": "Standard check-in time is 2:00 PM and check-out time is 12:00 PM. However, we can arrange early check-in or late check-out based on your flight schedule, subject to availability. We recommend informing us of your flight times well in advance to make necessary arrangements.",
+            "id": "Waktu check-in standar adalah pukul 14:00 dan check-out pukul 12:00. Namun, kami dapat mengatur check-in awal atau check-out terlambat berdasarkan jadwal penerbangan Anda, tergantung ketersediaan. Kami menyarankan untuk memberitahu kami jadwal penerbangan Anda jauh-jauh hari untuk membuat pengaturan yang diperlukan."
+          }
+        },
+        {
+          "question": {
+            "en": "Are there laundry facilities available at the hotels?",
+            "id": "Apakah ada fasilitas laundry di hotel?"
+          },
+          "answer": {
+            "en": "Most hotels offer laundry services for an additional fee. Premium packages typically include laundry service once per week. You can also find local laundry shops near the hotels. We recommend bringing enough clothes for at least 7-10 days to minimize laundry needs.",
+            "id": "Kebanyakan hotel menawarkan layanan laundry dengan biaya tambahan. Paket premium biasanya termasuk layanan laundry sekali seminggu. Anda juga dapat menemukan toko laundry lokal di dekat hotel. Kami menyarankan untuk membawa cukup pakaian untuk minimal 7-10 hari untuk meminimalkan kebutuhan laundry."
+          }
         }
       ]
     },
@@ -153,6 +213,26 @@
             "en": "All packages include airport transfers and transportation between Makkah, Madinah, and other holy sites. Premium packages feature private or smaller group buses with more comfort, while standard and economy packages use standard coaches shared with other pilgrims. During the Hajj rituals, government-provided transportation is used for moving between different sites.",
             "id": "Semua paket termasuk penjemputan bandara dan transportasi antara Makkah, Madinah, dan situs suci lainnya. Paket premium menawarkan bus pribadi atau kelompok yang lebih kecil dengan kenyamanan lebih, sementara paket standar dan ekonomi menggunakan bus standar yang dibagi dengan jamaah lain. Selama ritual Haji, transportasi yang disediakan pemerintah digunakan untuk berpindah antara situs yang berbeda."
           }
+        },
+        {
+          "question": {
+            "en": "What happens if my flight is delayed or cancelled?",
+            "id": "Apa yang terjadi jika penerbangan saya tertunda atau dibatalkan?"
+          },
+          "answer": {
+            "en": "In case of flight delays or cancellations, our team will assist you in rebooking flights and making necessary adjustments to your itinerary. We maintain close contact with airlines and will keep you informed of any changes. Travel insurance is recommended to cover such situations.",
+            "id": "Dalam kasus keterlambatan atau pembatalan penerbangan, tim kami akan membantu Anda dalam pemesanan ulang penerbangan dan melakukan penyesuaian yang diperlukan pada jadwal perjalanan Anda. Kami menjaga kontak dekat dengan maskapai penerbangan dan akan memberi tahu Anda tentang perubahan apapun. Asuransi perjalanan direkomendasikan untuk menutupi situasi seperti ini."
+          }
+        },
+        {
+          "question": {
+            "en": "Can I request specific seat preferences on the flights?",
+            "id": "Bisakah saya meminta preferensi kursi tertentu di penerbangan?"
+          },
+          "answer": {
+            "en": "Yes, you can request specific seat preferences such as window seats, aisle seats, or seats near the front of the aircraft. While we cannot guarantee specific seats, we will do our best to accommodate your preferences. Requests should be made at the time of booking.",
+            "id": "Ya, Anda dapat meminta preferensi kursi tertentu seperti kursi jendela, kursi lorong, atau kursi di dekat depan pesawat. Meskipun kami tidak dapat menjamin kursi tertentu, kami akan melakukan yang terbaik untuk mengakomodasi preferensi Anda. Permintaan harus diajukan saat pemesanan."
+          }
         }
       ]
     },
@@ -191,6 +271,26 @@
           "answer": {
             "en": "Saudi Arabia provides excellent medical facilities for pilgrims. There are numerous health centers and hospitals around the holy sites in Makkah and Madinah. Our packages include the services of a medical professional who travels with the group. For serious conditions, pilgrims can access Saudi Arabian hospitals which are well-equipped to handle emergencies.",
             "id": "Arab Saudi menyediakan fasilitas medis yang sangat baik untuk jamaah. Ada banyak pusat kesehatan dan rumah sakit di sekitar situs suci di Makkah dan Madinah. Paket kami termasuk layanan profesional medis yang bepergian dengan kelompok. Untuk kondisi serius, jamaah dapat mengakses rumah sakit Saudi Arabia yang dilengkapi dengan baik untuk menangani keadaan darurat."
+          }
+        },
+        {
+          "question": {
+            "en": "What should I do if I get sick during my pilgrimage?",
+            "id": "Apa yang harus saya lakukan jika saya sakit selama ibadah?"
+          },
+          "answer": {
+            "en": "If you become ill during your pilgrimage, immediately inform your group leader or guide. They will help you access medical facilities and arrange appropriate care. Most hotels have medical clinics or can arrange for a doctor to visit. For serious conditions, you'll be taken to the nearest hospital.",
+            "id": "Jika Anda sakit selama ibadah, segera beri tahu pemimpin kelompok atau pemandu Anda. Mereka akan membantu Anda mengakses fasilitas medis dan mengatur perawatan yang sesuai. Kebanyakan hotel memiliki klinik medis atau dapat mengatur kunjungan dokter. Untuk kondisi serius, Anda akan dibawa ke rumah sakit terdekat."
+          }
+        },
+        {
+          "question": {
+            "en": "Are there any specific health precautions I should take before traveling?",
+            "id": "Apakah ada tindakan pencegahan kesehatan khusus yang harus saya lakukan sebelum bepergian?"
+          },
+          "answer": {
+            "en": "Yes, it's recommended to get a general health check-up before traveling, especially if you have any pre-existing conditions. Stay hydrated, get adequate rest, and maintain a healthy diet before your journey. If you're taking any medications, ensure you have sufficient supply for your entire trip.",
+            "id": "Ya, disarankan untuk melakukan pemeriksaan kesehatan umum sebelum bepergian, terutama jika Anda memiliki kondisi kesehatan yang sudah ada. Tetap terhidrasi, istirahat yang cukup, dan pertahankan pola makan sehat sebelum perjalanan Anda. Jika Anda mengonsumsi obat-obatan, pastikan Anda memiliki persediaan yang cukup untuk seluruh perjalanan."
           }
         }
       ]
